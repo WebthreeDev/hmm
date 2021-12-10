@@ -1,0 +1,22 @@
+.brand-item {
+    width: 162px!important;
+}
+
+.brand-item {
+    width: 162px!important;
+}
+
+.brand-item {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 82px;
+}
+.brand-item img {
+    width: 100%;
+}
+.brand-area {
+    background-image: url(https://katanainu.com/wp-content/uploads/2021/11/s_brand_bg.jpg);
+    background-position: center center;
+}

@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxanium:wght@200;300;400;500;600;700;800&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,300;1,400&display=swap');
+*{
+    box-sizing: border-box;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+p {
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 28px;
+    color: #cbcbcb;
+    margin-bottom: 15px;
+}
+
+a, button {
+    color: #1696e7;
+    outline: medium;
+    text-decoration: none;
+}
+
+a:hover, .portfolio-cat a:hover, .footer -menu li a:hover {
+    color: #2b96cc;
+    text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: oxanium,cursive;
+    color: #fff;
+    margin-top: 0;
+    font-style: normal;
+    font-weight: 800;
+    text-transform: normal;
+}
+
+body {
+    font-family: poppins,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 15px;
+    font-weight: 500;
+    color: #d4d4d4;
+}
+
+.btn {
+    -moz-user-select: none;
+    border: medium;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: 0;
+    line-height: 1;
+    margin-bottom: 0;
+    padding: 20px 44px;
+    text-align: center;
+    text-transform: uppercase;
+    touch-action: manipulation;
+    transition: all .3s ease 0s;
+    vertical-align: middle;
+    white-space: nowrap;
+    position: relative;
+    z-index: 1;
+}
+
+.btn:hover {
+    color: #fff;
+}
+.pt-90 {
+    padding-top: 90px;
+}
+
+.pb-120 {
+    padding-bottom: 120px;
+}
+
+.pt-115 {
+    padding-top: 115px;
+}
+.mb-60 {
+    margin-bottom: 60px;
+}
+
+.mb-70 {
+    margin-bottom: 70px;
+}
+
+.header-social ul li a:hover, .header-top-mail p span, .header-top-mail p i, .header-action ul li.header-search a, ul.minicart .cart-content a:hover, .minicart .del-icon>a, #search-modal .modal-dialog .modal-content form button, .slider-content h6, .slider-content h2 span, .section-title h2 span, .latest-games-content h4 a:hover, .latest-games-content h4 span, .latest-games-content p span, .latest-games-active.owl-carousel .owl-nav button:hover, .product-active .slick-arrow:hover, .testimonial-active.owl-carousel .owl-nav button:hover, .match-team-name a:hover, .coming-match-info h5 span, .tournament-schedule-content h3 span, .tournament-schedule-content h3 a:hover, .coming-match-time .time-count span, .tournament-menu button.active, .tournament-schedule-meta h5 span, .tournament-schedule-meta a, .product-content h4 a:hover, .blog-post-content h5 a:hover, .product-price h5, .product-cart-action a, .blog-meta ul li i, .testi-avatar-info span, .features-item .features-list-content .product-tag a, .features-list-content h6 a:hover, .newsletter-form-grp i, .newsletter-form button:hover, .fw-link ul li a:hover, .footer-widget ul li a:hover, .footer-widget h5 a:hover, .copyright-text p a, .featured-game-meta a {
+    color: #e4a101;
+}
+
+.container {
+    max-width: 1230px;
+}
+
+.sm-title{
+    color: #fff;
+    font-family: poppins,Sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.big-title{
+    color: #fff;
+    font-family: oxanium,Sans-serif;
+    font-size: 45px;
+    font-weight: 800;
+}
+
+.big-title span{
+    color: orange;
+}
