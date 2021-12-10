@@ -23,7 +23,7 @@ class HeaderBottom extends React.Component{
                                     </div>
                                     <div className="header-action">
                                         <ul>
-                                            <li className="header-search"><a href="#" data-toggle="modal" data-target="#search-modal"><i className="fas fa-search" /></a></li>
+                                            <li className="header-search"><a href="/#" data-toggle="modal" data-target="#search-modal"><i className="fas fa-search" /></a></li>
                                         </ul>
                                     </div>
                                 </nav>
