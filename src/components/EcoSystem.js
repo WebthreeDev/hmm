@@ -23,7 +23,7 @@ class EcoSystem extends React.Component {
                         </div>
                         <div className="col-md-6">
                             <div className="katanainu-eco-img">
-                                <img src={katanainu00} alr="katanainu"/>
+                                <img src={katanainu00} alt="katanainu"/>
                             </div>
                         </div>
                     </div>
@@ -43,7 +43,7 @@ class EcoSystem extends React.Component {
                         </div>
                         <div className="col-md-6">
                             <div className="katanainu-eco-img">
-                                <img src={katanainu01} alr="katanainu"/>
+                                <img src={katanainu01} alt="katanainu"/>
                             </div>
                         </div>
                     </div>

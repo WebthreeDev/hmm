@@ -15,7 +15,7 @@ class Gamers extends React.Component {
                         </div>
                         <div className="col-xl-8 col-lg-10">
                             <div className="just-gamers-img d-flex">
-                                <img src="https://katanainu.com/wp-content/uploads/2021/08/Untitled-2.png" alt="Gamer Image" className="just-gamers-character" />
+                                <img src="https://katanainu.com/wp-content/uploads/2021/08/Untitled-2.png" alt="Gamer" className="just-gamers-character" />
                                 <div className="chart-paths">
                                     <ul>
                                         <li><img src="https://katanainu.com/wp-content/themes/theme/assets/images/new/path_01.png" alt="path"/></li>
