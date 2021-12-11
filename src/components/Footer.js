@@ -44,10 +44,10 @@ class Footer extends React.Component {
                                     <h2 className='footer-widget-title'>Katana Inu Menu</h2>
                                     <span className='divider'></span>
                                     <ul className='footer-widget-list'>
-                                        <li><a hre="/#">Buy Katana Inu (Soon)</a></li>
-                                        <li><a hre="/#">Whitepaper</a></li>
-                                        <li><a hre="/#">Roadmap</a></li>
-                                        <li><a hre="/#">FAQ</a></li>
+                                        <li><a href="/#">Buy Katana Inu (Soon)</a></li>
+                                        <li><a href="/#">Whitepaper</a></li>
+                                        <li><a href="/#">Roadmap</a></li>
+                                        <li><a href="/#">FAQ</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -56,11 +56,11 @@ class Footer extends React.Component {
                                 <div className='footer-widget'>
                                     <span className='divider'></span>
                                     <ul className='footer-widget-list'>
-                                        <li><a hre="/#">Contact Us</a></li>
-                                        <li><a hre="/#">Discord</a></li>
-                                        <li><a hre="/#">Medium</a></li>
-                                        <li><a hre="/#">Reddit</a></li>
-                                        <li><a hre="/#">ChainVision Games</a></li>
+                                        <li><a href="/#">Contact Us</a></li>
+                                        <li><a href="/#">Discord</a></li>
+                                        <li><a href="/#">Medium</a></li>
+                                        <li><a href="/#">Reddit</a></li>
+                                        <li><a href="/#">ChainVision Games</a></li>
                                     </ul>
                                 </div>
                             </div>
