@@ -2,7 +2,7 @@ import React from 'react';
 import './Footer.css';
 import logo from '../images/footer-logo.png';
 
-export class Footer extends React.Component {
+class Footer extends React.Component {
     render() {
         return (
             <footer className=''>

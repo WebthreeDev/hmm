@@ -2,7 +2,7 @@ import React from 'react';
 import HeaderTopBar from './HeaderTopBar';
 import HeaderBottom from './HeaderBottom';
 
-export class Header extends React.Component {
+class Header extends React.Component {
     
     render(){
         return(
