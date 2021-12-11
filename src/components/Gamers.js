@@ -1,5 +1,14 @@
 import React from 'react';
 import './Gamers.css';
+import gammers from '../images/katanainu-gamers.png';
+import path1 from '../images/path_01.png';
+import path2 from '../images/path_02.png';
+import path3 from '../images/path_03.png';
+import path4 from '../images/path_04.png';
+import path5 from '../images/path_05.png';
+import circle from '../images/gamers_circle_shape.png';
+import shape from '../images/gamers_circle_line.png';
+import chart from '../images/just_gamers_chart.png';
 
 class Gamers extends React.Component {
     render() {
@@ -15,14 +24,14 @@ class Gamers extends React.Component {
                         </div>
                         <div className="col-xl-8 col-lg-10">
                             <div className="just-gamers-img d-flex">
-                                <img src="https://katanainu.com/wp-content/uploads/2021/08/Untitled-2.png" alt="Gamer" className="just-gamers-character" />
+                                <img src={gammers} alt="Gamer" className="just-gamers-character" />
                                 <div className="chart-paths">
                                     <ul>
-                                        <li><img src="https://katanainu.com/wp-content/themes/theme/assets/images/new/path_01.png" alt="path"/></li>
-                                        <li><img src="https://katanainu.com/wp-content/themes/theme/assets/images/new/path_02.png" alt="path"/></li>
-                                        <li><img src="https://katanainu.com/wp-content/themes/theme/assets/images/new/path_03.png" alt="path"/></li>
-                                        <li><img src="https://katanainu.com/wp-content/themes/theme/assets/images/new/path_04.png" alt="path"/></li>
-                                        <li><img src="https://katanainu.com/wp-content/themes/theme/assets/images/new/path_05.png" alt="path"/></li>
+                                        <li><img src={path1} alt="path"/></li>
+                                        <li><img src={path2} alt="path"/></li>
+                                        <li><img src={path3} alt="path"/></li>
+                                        <li><img src={path4} alt="path"/></li>
+                                        <li><img src={path5} alt="path"/></li>
                                     </ul>
                                 </div>
                                 <div className="chart-paths-content">
@@ -45,12 +54,12 @@ class Gamers extends React.Component {
                                     </ul>
                                 </div>
                                 <div className="just-gamers-circle-shape">
-                                    <img src="https://katanainu.com/wp-content/themes/theme/assets/images/gamers_circle_line.png" alt="Line" />
-                                    <img src="https://katanainu.com/wp-content/themes/theme/assets/images/gamers_circle_shape.png" alt="Shape" className="rotateme" />
+                                    <img src={shape} alt="Line" />
+                                    <img src={circle} alt="Shape" className="rotateme" />
                                 </div>
                             </div>
                         </div>
-                        <img src="https://katanainu.com/wp-content/themes/theme/assets/images/just_gamers_chart.png" alt="Chart" className="gamers-chart-shape" />
+                        <img src={chart} alt="Chart" className="gamers-chart-shape" />
                     </div>
                 </div>
             </section>

@@ -1,0 +1,75 @@
+.contact-area{
+    background-color: #f9f9f9;
+}
+
+.contact-area .section-title.sm-title {
+    color: #000;
+    font-family: poppins,Sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.contact-area .section-title.big-title  {
+    color: #000;
+    font-family: oxanium,Sans-serif;
+    font-size: 45px;
+    font-weight: 800;
+}
+
+.contact-area .contact-heading-contents{
+    color: #000;
+    font-family: poppins,Sans-serif;
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 28px;
+}
+
+.contact-form{
+    text-align: left;
+}
+
+.contact-form input, textarea {
+    width: 100%;
+    max-width: 100%;
+    background-color: #fff;
+    border-color: orange;
+    border-width: 0 0 1px;
+    border-radius: 1px 1px 1px 1px;
+    font-family: poppins,Sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    min-height: 47px;
+    padding: 6px 16px;
+}
+
+.contact-form .form-group{
+    margin-bottom: 20px;
+}
+
+button.btn.form-btn {
+    background: orange;
+}
+
+button.btn.form-btn:hover{
+    background-color: #050505;
+    color:#fff;
+    transition: 0.3s all;
+}
+
+.contact-left ul li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.contact-left ul li a i {
+    color: orange;
+    font-size: 25px;
+}
+
+.contact-left ul li a {
+    font-family: poppins,Sans-serif;
+    font-size: 17px;
+    font-weight: 600;
+    color: #414141;
+}

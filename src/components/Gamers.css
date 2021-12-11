@@ -262,3 +262,17 @@
     right: 22%;
     bottom: 39%;
 }
+
+.just-gamers-bg::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    background-image: url(../images/gamers_bg_conve02.png);
+    width: 420px;
+    height: 152px;
+    margin: 0 auto;
+    bottom: -20px;
+    background-repeat: no-repeat;
+    z-index: -1;
+}

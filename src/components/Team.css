@@ -1,0 +1,139 @@
+.team-bg {
+    background-position: center;
+    background-size: cover;
+    padding: 110px 0 66px;
+    position: relative;
+    z-index: 1
+}
+
+.team-bg::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    /* background-image: url(../img/bg/team_bg_shape.png); */
+    background-position: center;
+    background-size: cover;
+    opacity: .62
+}
+
+.team-bg::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: #1a191f;
+    opacity: .93;
+    z-index: -1
+}
+
+.white-title .title {
+    color: #fff
+}
+
+.white-title .title>span {
+    color: #ff4b36
+}
+
+.white-title p {
+    color: #f0f0f0
+}
+
+.team-item {
+    position: relative;
+    text-align: center;
+    margin-bottom: 50px;
+    z-index: 1
+}
+
+.team-item .team-thumb img {
+    border-radius: 50%;
+    border: 8px solid #000;
+    margin-top: 2px;
+    -webkit-transition: all .4s ease-out 0s;
+    -moz-transition: all .4s ease-out 0s;
+    -ms-transition: all .4s ease-out 0s;
+    -o-transition: all .4s ease-out 0s;
+    transition: all .4s ease-out 0s;
+    height: 275px;
+    width: 275px
+}
+
+.team-thumb>.thumb-bg {
+    border-radius: 50%;
+    width: 194px;
+    height: 194px;
+    box-shadow: 0 9px 6.51px .49px rgba(17, 7, 128, .14);
+    background: #fff;
+    position: absolute;
+    left: 50%;
+    top: 0;
+    transform: translateX(-50%) rotate(0deg);
+    -webkit-transition: all .6s ease-out 0s;
+    -moz-transition: all .6s ease-out 0s;
+    -ms-transition: all .6s ease-out 0s;
+    -o-transition: all .6s ease-out 0s;
+    transition: all .6s ease-out 0s;
+    z-index: -1
+}
+
+.team-thumb>.thumb-bg::before {
+    content: "";
+    position: absolute;
+    right: 0%;
+    top: 16%;
+    width: 30px;
+    height: 30px;
+    background: #fff;
+    border-radius: 50%
+}
+
+.team-content>span {
+    display: block;
+    text-transform: uppercase;
+    font-size: 14px;
+    color: #fff;
+    margin-bottom: 5px;
+    -webkit-transition: all .3s ease-out 0s;
+    -moz-transition: all .3s ease-out 0s;
+    -ms-transition: all .3s ease-out 0s;
+    -o-transition: all .3s ease-out 0s;
+    transition: all .3s ease-out 0s
+}
+
+.team-content h5 a{
+    font-size: 20px;
+    color: #fff;
+    margin-bottom: 14px
+}
+
+.team-content h5 a:hover {
+    color: #fff
+}
+
+.team-content p {
+    margin-bottom: 0;
+    font-size: 14px;
+    color: #e7e7e7;
+    line-height: 26px
+}
+
+.team-item .team-thumb {
+    margin-bottom: 40px
+}
+
+.team-item:hover .team-content>span {
+    color: #ff4b36
+}
+
+.team-item:hover .team-thumb>.thumb-bg {
+    transform: translateX(-50%) rotate(65deg)
+}
+
+.team-item:hover .team-thumb img {
+    border-color: #ff4b36
+}
