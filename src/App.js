@@ -1,6 +1,6 @@
 import './App.css';
 import Header from './components/Header';
-// import MainSlider from './components/MainSlider';
+import MainSlider from './components/MainSlider';
 // import Brand from './components/Brand';
 // import Countdown from './components/Countdown';
 // import EcoSystem from './components/EcoSystem';
@@ -13,17 +13,17 @@ import Header from './components/Header';
 import Footer from './components/Footer';
 // import Contact from './components/Contact';
 // import Faq from './components/Faq';
-import { BrowserRouter as Router } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
 function App() {
   return (
     <Router>
       <div className="App">
         <Header/>
-        {/* <Switch>
+        <Switch>
           <Route exact path="/">
             <MainSlider/>
-            <Brand/>
+            {/* <Brand/>
             <Countdown/>
             <EcoSystem/>
             <LiveMatch/>
@@ -32,12 +32,12 @@ function App() {
             <Features/>
             <Timeline/>
             <Team/>
-            <Contact/>
+            <Contact/> */}
           </Route>
-          <Route exact path="/faq">
+          {/* <Route exact path="/faq">
             <Faq/>
-          </Route>
-        </Switch> */}
+          </Route> */}
+        </Switch>
         <Footer/>
       </div>
     </Router>
