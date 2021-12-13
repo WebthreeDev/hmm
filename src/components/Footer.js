@@ -1,6 +1,5 @@
 import React from 'react';
 import './Footer.css';
-import logo from '../assets/img/logo/logo.png';
 
 class Footer extends React.Component {
     render() {
@@ -34,7 +33,7 @@ class Footer extends React.Component {
                     <div className="col-xl-3 col-lg-3 col-md-6">
                     <div className="footer-widget mb-50">
                         <div className="footer-logo mb-35">
-                        <a href="index.html"><img src={logo} alt="KATANA INU"/></a>
+                        <a href="index.html"><img src="assets/img/logo/logo.png" alt="KATANA INU"/></a>
                         </div>
                         <div className="footer-text">
                         <p>See you on the moon.</p>

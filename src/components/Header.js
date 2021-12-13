@@ -1,6 +1,30 @@
 import React from 'react';
+import $ from 'jquery';
 
 class Header extends React.Component {
+    componentDidMount(){
+        //Mobile Nav Hide Show
+        if ($('.mobile-menu').length) {
+
+            var mobileMenuContent = $('.menu-area .main-menu').html();
+            $('.mobile-menu .menu-box .menu-outer').append(mobileMenuContent);
+
+            //Dropdown Button
+            $('.mobile-menu li.menu-item-has-children .dropdown-btn').on('click', function () {
+                $(this).toggleClass('open');
+                $(this).prev('ul').slideToggle(500);
+            });
+            //Menu Toggle Btn
+            $('.mobile-nav-toggler').on('click', function () {
+                $('body').addClass('mobile-menu-visible');
+            });
+
+            //Menu Toggle Btn
+            $('.menu-backdrop, .mobile-menu .close-btn').on('click', function () {
+                $('body').removeClass('mobile-menu-visible');
+            });
+        }
+    }
     
     render(){
         return(
@@ -62,14 +86,6 @@ class Header extends React.Component {
                             </div>
                             <div className="menu-outer">
                                 {/*Here Menu Will Come Automatically Via Javascript / Same Menu as in Header*/}
-                                <ul className="navigation">
-                                    <li className="active"><a href="/#">Gaming</a></li>
-                                    <li><a href="/#">Tokenomics</a></li>
-                                    <li><a href="/#">Why Katana Inu</a></li>
-                                    <li><a href="/#">roadmap</a></li>
-                                    <li><a href="/#">contact</a></li>
-                                    <li><a href="/#">FAQ</a></li>
-                                </ul>
                             </div>
                             <div className="social-links">
                                 <ul className="clearfix">
