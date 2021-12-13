@@ -1,6 +1,21 @@
 import React from 'react';
+// import $ from 'jquery';
+// import { findDOMNode } from 'react-dom';
 
 class CommingSoon extends React.Component {
+    componentDidMount(){
+        /*=============================================
+            =    		 Countdown  	         =
+        =============================================*/
+        // const el = findDOMNode(this.ref.countdown);
+        // $(el).each(function () {
+        //     var $this = $(this), finalDate = $(this).data('countdown');
+        //     $this.countdown(finalDate, function (event) {
+        //         $this.html(event.strftime('<div class="time-count"><span class="value">%D</span><span class="label">Days</span></div><div class="time-count"><span class="value">%H</span><span class="label">Hour</span></div><div class="time-count"><span class="value">%M</span><span class="label">minute</span></div><div class="time-count"><span class="value">%S</span><span class="label">Secs</span></div>'));
+        //     });
+        // });
+    }
+
     render() {
         return (
             <section className="coming-soon-area">
@@ -13,7 +28,7 @@ class CommingSoon extends React.Component {
                         </div>
                     </div>
                     <div className="col-12">
-                        <div className="coming-time" data-countdown="2021/12/28" />
+                        <div className="coming-time" data-countdown="2021/12/28"/>
                     </div>
                     </div>
                 </div>

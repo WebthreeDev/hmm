@@ -24,6 +24,18 @@ class Header extends React.Component {
                 $('body').removeClass('mobile-menu-visible');
             });
         }
+
+        /*=============================================
+            =            Header Search            =
+        =============================================*/
+        $(".header-search > a").on('click', function () {
+            $(".search-popup-wrap").slideToggle();
+            return false;
+        });
+
+        $(".search-close").on('click', function () {
+            $(".search-popup-wrap").slideUp(500);
+        });
     }
     
     render(){

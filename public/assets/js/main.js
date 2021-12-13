@@ -66,17 +66,7 @@ $("[data-background]").each(function () {
 })
 
 
-/*=============================================
-	=            Header Search            =
-=============================================*/
-$(".header-search > a").on('click', function () {
-	$(".search-popup-wrap").slideToggle();
-	return false;
-});
 
-$(".search-close").on('click', function () {
-	$(".search-popup-wrap").slideUp(500);
-});
 
 
 /*=============================================
