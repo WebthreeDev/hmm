@@ -4,57 +4,38 @@ import './Contact.css';
 class Contact extends React.Component {
     render() {
         return (
-            <div className='contact-area py-5'>
-                <div className='container'>
-                    <div className='row'>
-                        <div className='col-md-12'>
-                        <h2 className="section-title sm-title mb-3 mt-5">I'M READY TO FIGHT - JUST CONTACT ME!</h2>
-                            <h2 className="section-title big-title">
-                                CONTACT <span>KATANA INU</span>
-                            </h2>
-                            <span className="divider"></span>
-                            <h2 className='contact-heading-contents mt-4'>Any questions? Reach out to us and we will get back to you shortly.</h2>
+            <section className="contact-area">
+                <div className="container">
+                    <div className="row justify-content-center">
+                    <div className="col-xl-7 col-lg-9">
+                        <div className="section-title text-center mb-50">
+                        <span className="sub-title">I'M READY TO FIGHT - JUST CONTACT ME!</span>
+                        <h2 className="title">CONTACT <span>KATANA INU</span></h2>
                         </div>
                     </div>
-                    <div className='row mt-3 pb-5 mb-4'>
-                        <div className='col-md-6 col-sm-12'>
-                            <div className='contact-left'>
-                                <ul className='mt-5 pt-3 px-5'>
-                                    <li>
-                                        <a href='/#'>
-                                            <i aria-hidden="true" className="fab fa-telegram mr-4"></i>
-                                            <span>Join us on Telegram</span>
-                                        </a>
-                                    </li>
-
-                                    <li>
-                                        <a href='/#'>
-                                            <i aria-hidden="true" className="fas fa-envelope mr-4"></i>
-                                            <span>contact@katanainu.com</span>
-                                        </a>
-                                    </li>
-                                </ul>
-                            </div>
+                    </div>
+                    <p className="content-desc">Any questions? Reach out to us and we will get back to you shortly.</p>
+                    <div className="row align-items-center">
+                    <div className="col-lg-5">
+                        <div className="contact-info-list">
+                        <ul>
+                            <li><i className="fab fa-telegram" /><a target="_blank" href="https://www.t.me/katanainu">Join us on Telegram &gt;</a></li>
+                            <li><i className="fas fa-envelope" /><a href="http://contact@katanainu.com">contact@katanainu.com</a></li>
+                        </ul>
                         </div>
-                        <div className='col-md-6 col-sm-12'>
-                            <div className='contact-form'>
-                                <form>
-                                    <div className='form-group'>
-                                        <input type="text" placeholder='Your Name'/>
-                                    </div>
-                                    <div className='form-group'>
-                                        <input type="text" placeholder='Your Email'/>
-                                    </div>
-                                    <div className='form-group'>
-                                       <textarea placeholder='Your Message' rows={4}></textarea>
-                                    </div>
-                                    <button className='btn form-btn'>Submit</button>
-                                </form>
-                            </div>
-                        </div>
+                    </div>
+                    <div className="col-lg-7">
+                        <form action="#" className="contact-form">
+                        <input type="text" placeholder="Your Name" />
+                        <input type="email" placeholder="Your Email" />
+                        <textarea name="message" id="message" placeholder="Your Message" defaultValue={""} />
+                        <button type="submit">Submit Now</button>
+                        </form>
+                    </div>
                     </div>
                 </div>
-            </div>
+            </section>
+
         )
     }
 }
