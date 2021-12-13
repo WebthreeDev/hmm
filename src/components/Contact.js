@@ -19,7 +19,7 @@ class Contact extends React.Component {
                     <div className="col-lg-5">
                         <div className="contact-info-list">
                         <ul>
-                            <li><i className="fab fa-telegram" /><a target="_blank" href="https://www.t.me/katanainu">Join us on Telegram &gt;</a></li>
+                            <li><i className="fab fa-telegram" /><a target="_blank" href="https://www.t.me/katanainu" rel="noreferrer">Join us on Telegram &gt;</a></li>
                             <li><i className="fas fa-envelope" /><a href="http://contact@katanainu.com">contact@katanainu.com</a></li>
                         </ul>
                         </div>
