@@ -1,7 +1,7 @@
 import './App.css';
 import Header from './components/Header';
 import MainSlider from './components/MainSlider';
-// import Brand from './components/Brand';
+import Brand from './components/Brand';
 // import Countdown from './components/Countdown';
 // import EcoSystem from './components/EcoSystem';
 // import LiveMatch from './components/LiveMatch';
@@ -23,8 +23,8 @@ function App() {
         <Switch>
           <Route exact path="/">
             <MainSlider/>
-            {/* <Brand/>
-            <Countdown/>
+            <Brand/>
+            {/* <Countdown/>
             <EcoSystem/>
             <LiveMatch/>
             <LiveBottom/>

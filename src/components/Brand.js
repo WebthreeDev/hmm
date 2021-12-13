@@ -1,29 +1,94 @@
 import React from 'react';
 import './Brand.css';
+import Slider from "react-slick";
 
 class Brand extends React.Component {
     render() {
+        const settings = {
+            dots: false,
+            infinite: true,
+            speed: 1000,
+            autoplay: true,
+            arrows: false,
+            slidesToShow: 6,
+            slidesToScroll: 2,
+            responsive: [
+                {
+                    breakpoint: 1200,
+                    settings: {
+                        slidesToShow: 5,
+                        slidesToScroll: 1,
+                        infinite: true,
+                    }
+                },
+                {
+                    breakpoint: 992,
+                    settings: {
+                        slidesToShow: 4,
+                        slidesToScroll: 1
+                    }
+                },
+                {
+                    breakpoint: 767,
+                    settings: {
+                        slidesToShow: 3,
+                        slidesToScroll: 1,
+                        arrows: false,
+                    }
+                },
+                {
+                    breakpoint: 575,
+                    settings: {
+                        slidesToShow: 2,
+                        slidesToScroll: 1,
+                        arrows: false,
+                    }
+                },
+            ]
+        };
         return (
-            <div className="brand-area">
+            <div className="brand-area brand-bg home-four-brand">
                 <div className="container">
-                    <div className="row">
-                        <div className="col-md-6 m-auto">
-                            <div className="row brand-active">
-                                <div className="col-6">
-                                    <div className="brand-item">
-                                    <a href="https://coinmarketcap.com/currencies/katana-inu/"><img src="https://katanainu.com/wp-content/uploads/2021/12/cmc.png" alt="img" /></a>
-                                    </div>
-                                </div>
-                                <div className="col-6">
-                                    <div className="brand-item">
-                                    <a href="https://www.certik.org/projects/katanainu"><img src="https://katanainu.com/wp-content/uploads/2021/11/certikwhite-1.png" alt="img" /></a>
-                                    </div>
-                                </div>
+                    <Slider className="row brand-active" {...settings}>
+                        <div className="col-xl-2">
+                            <div className="brand-item">
+                            <img src="assets/img/brand/brand_logo01.png" alt="BRAND" />
                             </div>
                         </div>
-                    </div>
+                        <div className="col-xl-2">
+                            <div className="brand-item">
+                            <img src="assets/img/brand/brand_logo02.png" alt="BRAND" />
+                            </div>
+                        </div>
+                        <div className="col-xl-2">
+                            <div className="brand-item">
+                            <img src="assets/img/brand/brand_logo03.png" alt="BRAND" />
+                            </div>
+                        </div>
+                        <div className="col-xl-2">
+                            <div className="brand-item">
+                            <img src="assets/img/brand/brand_logo04.png" alt="BRAND" />
+                            </div>
+                        </div>
+                        <div className="col-xl-2">
+                            <div className="brand-item">
+                            <img src="assets/img/brand/brand_logo05.png" alt="BRAND" />
+                            </div>
+                        </div>
+                        <div className="col-xl-2">
+                            <div className="brand-item">
+                            <img src="assets/img/brand/brand_logo06.png" alt="BRAND" />
+                            </div>
+                        </div>
+                        <div className="col-xl-2">
+                            <div className="brand-item">
+                            <img src="assets/img/brand/brand_logo03.png" alt="BRAND" />
+                            </div>
+                        </div>
+                    </Slider>
                 </div>
             </div>
+
         )
     }
 }
