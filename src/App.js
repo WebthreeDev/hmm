@@ -18,7 +18,7 @@ import Advisors from './components/Advisors';
 
 function App() {
   return (
-    <Router>
+    <Router basename='/katanainu/build'>
       <div className="App">
         <Header/>
         <Switch>
