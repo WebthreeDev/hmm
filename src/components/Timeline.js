@@ -24,9 +24,17 @@ class Timeline extends React.Component {
                         <h3 className="title">Phase 1</h3>
                         <ul className="list">
                         <li>Website Launch</li>
+                        <li>Social Media Launch</li>
+                        <li>Audit Launch</li>
                         <li>NFT-Marketplace Development</li>
-                        <li>Coinmarketcap Listing</li>
+                        <li>Game-Trailer development</li>
+                        <li>Whitepaper launch</li>
+                        <li> Coinmarketcap Listing</li>
                         <li>Coingecko listing</li>
+                        <li>Seed Sale</li>
+                        <li>Private Sale 1</li>
+                        <li>Private Sale 2</li>
+                        <li> Public sale</li>
                         </ul>
                     </div>
                     </div>
@@ -35,10 +43,16 @@ class Timeline extends React.Component {
                     <div className="timeline-content">
                         <h3 className="title">Phase 2</h3>
                         <ul className="list">
-                        <li>Website Launch</li>
-                        <li>NFT-Marketplace Development</li>
-                        <li>Coinmarketcap Listing</li>
-                        <li>Coingecko listing</li>
+                        <li> Game-Development</li>
+                        <li> Game Trailer</li>
+                        <li>E-Commerce Launch</li>
+                        <li> Wallet development</li>
+                        <li>Serveral Updates</li>
+                        <li>NFT & Exchange launch</li>
+                        <li>Creating 3D NFT skins Charity Action</li>
+                        <li>Game Blog Website</li>
+                        <li> Partnership Coop</li>
+                        <li>CEX listing</li>
                         </ul>
                     </div>
                     </div>
@@ -47,10 +61,15 @@ class Timeline extends React.Component {
                     <div className="timeline-content">
                         <h3 className="title">Phase 3</h3>
                         <ul className="list">
-                        <li>Website Launch</li>
-                        <li>NFT-Marketplace Development</li>
-                        <li>Coinmarketcap Listing</li>
-                        <li>Coingecko listing</li>
+                        <li> More partnership Cooperation’s</li>
+                        <li>Charity Action</li>
+                        <li>Katana Inu App launch</li>
+                        <li> Expand Marketing Strategy</li>
+                        <li>Create more 3D Game NFT’s</li>
+                        <li>Big game trailer</li>
+                        <li>NFT Marketplace Launch</li>
+                        <li>Game Demo</li>
+                        <li>More CEX listing</li>
                         </ul>
                     </div>
                     </div>
@@ -59,10 +78,10 @@ class Timeline extends React.Component {
                     <div className="timeline-content">
                         <h3 className="title">Phase 4</h3>
                         <ul className="list">
-                        <li>Website Launch</li>
-                        <li>NFT-Marketplace Development</li>
-                        <li>Coinmarketcap Listing</li>
-                        <li>Coingecko listing</li>
+                        <li>Beta Game Launch for PC</li>
+                        <li>Charity Projects</li>
+                        <li>More Listings</li>
+                        <li>More Cooperations</li>
                         </ul>
                     </div>
                     </div>

@@ -1391,13 +1391,7 @@ label {
 .timeline-item:last-child{
 	margin-bottom: 0;
 }
-.timeline-item:nth-child(odd){
-    padding-right: calc(50% + 50px);
-	text-align: right;
-}
-.timeline-item:nth-child(even){
-    padding-left: calc(50% + 50px);
-}
+
 .timeline-count {
     height: 40px;
     width: 40px;
