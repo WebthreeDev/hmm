@@ -80,6 +80,21 @@ class Brands extends React.Component {
                             <img src="assets/img/brand/brand19.png" alt="BRAND" className="img-fluid"/>
                             </div>
                         </div>
+                        <div className="col-xl-3">
+                            <div className="brand-item mt-4">
+                            <img src="assets/img/brand/brand20.png" alt="BRAND" className="img-fluid"/>
+                            </div>
+                        </div>
+                        <div className="col-xl-3">
+                            <div className="brand-item mt-4">
+                            <img src="assets/img/brand/brand21.png" alt="BRAND" className="img-fluid"/>
+                            </div>
+                        </div>
+                        <div className="col-xl-3">
+                            <div className="brand-item mt-4">
+                            <img src="assets/img/brand/brand22.png" alt="BRAND" className="img-fluid"/>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
