@@ -1,6 +1,6 @@
 {
   "name": "katanainu",
-  "homepage": "https://katanainu.com/katanainu/build/",
+  "homepage": "",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -9,6 +9,7 @@
     "@testing-library/user-event": "^12.8.3",
     "bootstrap-4-react": "^0.0.59",
     "jquery": "^3.6.0",
+    "jquery-countdown": "^2.2.0",
     "jquery.countdown": "^1.2.8",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",

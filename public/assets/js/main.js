@@ -160,15 +160,15 @@ $('.brand-active').slick({
 });
 
 
-/*=============================================
-	=    		 Countdown  	         =
-=============================================*/
-$('[data-countdown]').each(function () {
-	var $this = $(this), finalDate = $(this).data('countdown');
-	$this.countdown(finalDate, function (event) {
-		$this.html(event.strftime('<div class="time-count"><span class="value">%D</span><span class="label">Days</span></div><div class="time-count"><span class="value">%H</span><span class="label">Hour</span></div><div class="time-count"><span class="value">%M</span><span class="label">minute</span></div><div class="time-count"><span class="value">%S</span><span class="label">Secs</span></div>'));
-	});
-});
+// /*=============================================
+// 	=    		 Countdown  	         =
+// =============================================*/
+// $('[data-countdown]').each(function () {
+// 	var $this = $(this), finalDate = $(this).data('countdown');
+// 	$this.countdown(finalDate, function (event) {
+// 		$this.html(event.strftime('<div class="time-count"><span class="value">%D</span><span class="label">Days</span></div><div class="time-count"><span class="value">%H</span><span class="label">Hour</span></div><div class="time-count"><span class="value">%M</span><span class="label">minute</span></div><div class="time-count"><span class="value">%S</span><span class="label">Secs</span></div>'));
+// 	});
+// });
 
 
 /*=============================================

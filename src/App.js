@@ -15,10 +15,11 @@ import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import Value from './components/Value';
 import Trailer from './components/Trailer';
 import Advisors from './components/Advisors';
+import Brands from './components/Brands';
 
 function App() {
   return (
-    <Router basename='/katanainu/build'>
+    <Router>
       <div className="App">
         <Header/>
         <Switch>
@@ -29,6 +30,7 @@ function App() {
             <Mission/>
             <Value/>
             <Trailer/>
+            <Brands/>
             <Gamers/>
             <Features/>
             <Timeline/>
