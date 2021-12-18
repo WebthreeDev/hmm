@@ -19,7 +19,7 @@ import Brands from './components/Brands';
 
 function App() {
   return (
-    <Router>
+    <Router basename='/katanainu/build'>
       <div className="App">
         <Header/>
         <Switch>
