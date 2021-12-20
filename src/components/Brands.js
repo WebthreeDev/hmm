@@ -17,11 +17,11 @@ class Brands extends React.Component {
                             <img src="assets/img/brand/brand02.png" alt="BRAND" className="img-fluid"/>
                             </div>
                         </div>
-                        <div className="col-xl-3">
+                        {/* <div className="col-xl-3">
                             <div className="brand-items mt-4">
                             <img src="assets/img/brand/brand03.png" alt="BRAND" className="img-fluid"/>
                             </div>
-                        </div>
+                        </div> */}
                         <div className="col-xl-3">
                             <div className="brand-items mt-4">
                             <img src="assets/img/brand/brand04.png" alt="BRAND" className="img-fluid"/>

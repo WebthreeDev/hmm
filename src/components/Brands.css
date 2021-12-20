@@ -1,3 +1,14 @@
 .brand-items{
     width: 75%;
+    margin: 0 auto;
+}
+
+.brand-items img{
+    width: 100%;
+}
+
+@media only screen and (max-width:414px){
+    .brand-items{
+        margin-top: 50px;
+    }
 }

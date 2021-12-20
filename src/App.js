@@ -10,7 +10,7 @@ import Timeline from './components/Timeline';
 import Team from './components/Team';
 import Footer from './components/Footer';
 import Contact from './components/Contact';
-// import Faq from './components/Faq';
+import Faq from './components/Faq';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import Value from './components/Value';
 import Trailer from './components/Trailer';
@@ -30,17 +30,17 @@ function App() {
             <Mission/>
             <Value/>
             <Trailer/>
-            <Brands/>
             <Gamers/>
             <Features/>
+            <Brands/>
             <Timeline/>
             <Team/>
             <Advisors/>
             <Contact/>
           </Route>
-          {/* <Route exact path="/faq">
+          <Route exact path="/faq">
             <Faq/>
-          </Route> */}
+          </Route>
         </Switch>
         <Footer/>
       </div>

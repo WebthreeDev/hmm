@@ -1,5 +1,6 @@
 import React from 'react';
 import $ from 'jquery';
+import { Link } from 'react-router-dom';
 
 class Header extends React.Component {
     componentDidMount(){
@@ -80,7 +81,9 @@ class Header extends React.Component {
                                 <li><a href="/#">Why Katana Inu</a></li>
                                 <li><a href="/#">roadmap</a></li>
                                 <li><a href="/#">contact</a></li>
-                                <li><a href="/#">FAQ</a></li>
+                                <li>
+                                    <Link to="/faq">FAQ</Link>
+                                </li>
                                 </ul>
                             </div>
                             <div className="header-action d-none d-sm-block">
