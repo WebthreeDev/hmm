@@ -4,7 +4,7 @@ import './Contact.css';
 class Contact extends React.Component {
     render() {
         return (
-            <section className="contact-area">
+            <section className="contact-area" id="contact">
                 <div className="container">
                     <div className="row justify-content-center">
                     <div className="col-xl-7 col-lg-9">

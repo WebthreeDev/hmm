@@ -22,7 +22,7 @@ class MainSlider extends React.Component {
                             <p className="desc" data-animation="fadeInUp" data-delay=".6s">Katana Inu - We build a play2earn BattleRoyale NFT PC-Game with an intergrated NFT Marketplace on layer 2 solution (Ethereum). All In-game skins will be an NFT.</p>
                             <div className="slider-btn-wrap" data-animation="fadeInUp" data-delay=".8s">
                                 <a href="/#" className="btn btn-style-two">COMING SOON</a>
-                                <a href="/#" className="btn btn-style-two">Whitepaper</a>
+                                <a href="/katanainuwhitepaper.pdf" className="btn btn-style-two">Whitepaper</a>
                                 <a href="/#" className="btn btn-style-two">Donate</a>
                             </div>
                             </div>
@@ -45,7 +45,7 @@ class MainSlider extends React.Component {
                             </p>
                             <div className="slider-btn-wrap" data-animation="fadeInUp" data-delay=".8s">
                                 <a href="/#" className="btn btn-style-two">COMING SOON</a>
-                                <a href="/#" className="btn btn-style-two">Whitepaper</a>
+                                <a href="/katanainuwhitepaper.pdf" className="btn btn-style-two">Whitepaper</a>
                                 <a href="/#" className="btn btn-style-two">Donate</a>
                             </div>
                             </div>
@@ -68,7 +68,7 @@ class MainSlider extends React.Component {
                             </p>
                             <div className="slider-btn-wrap" data-animation="fadeInUp" data-delay=".8s">
                                 <a href="/#" className="btn btn-style-two">COMING SOON</a>
-                                <a href="/#" className="btn btn-style-two">Whitepaper</a>
+                                <a href="/katanainuwhitepaper.pdf" className="btn btn-style-two">Whitepaper</a>
                             </div>
                             </div>
                         </div>
@@ -90,7 +90,7 @@ class MainSlider extends React.Component {
                             </p>
                             <div className="slider-btn-wrap" data-animation="fadeInUp" data-delay=".8s">
                                 <a href="/#" className="btn btn-style-two">COMING SOON</a>
-                                <a href="/#" className="btn btn-style-two">Whitepaper</a>
+                                <a href="/katanainuwhitepaper.pdf" className="btn btn-style-two">Whitepaper</a>
                             </div>
                             </div>
                         </div>

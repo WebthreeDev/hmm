@@ -4,7 +4,7 @@ import './Gamers.css';
 class Gamers extends React.Component {
     render() {
         return (
-            <section className="chart-area chart-bg">
+            <section className="chart-area chart-bg" id="chart">
                 <div className="container">
                     <div className="row chart-title-row">
                     <div className="col-xl-6 col-lg-8">

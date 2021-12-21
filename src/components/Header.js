@@ -72,14 +72,14 @@ class Header extends React.Component {
                         <div className="menu-wrap">
                             <nav className="menu-nav">
                             <div className="logo">
-                                <a href="index.html"><img src="assets/img/logo/logo.png" alt="KATANA INU" /></a>
+                                <Link to="/"><img src="assets/img/logo/logo.png" alt="KATANA INU" /></Link>
                             </div>
                             <div className="navbar-wrap main-menu d-none d-lg-flex">
                                 <ul className="navigation">
                                 <li className="active"><a href="/#">Gaming</a></li>
-                                <li><a href="/#">Tokenomics</a></li>
+                                <li><a href="/#chart">Tokenomics</a></li>
                                 <li><a href="/#">Why Katana Inu</a></li>
-                                <li><a href="/#">roadmap</a></li>
+                                <li><a href="/#roadmap">roadmap</a></li>
                                 <li><a href="/#">contact</a></li>
                                 <li>
                                     <Link to="/faq">FAQ</Link>
@@ -97,7 +97,7 @@ class Header extends React.Component {
                         <div className="mobile-menu">
                             <nav className="menu-box">
                             <div className="close-btn"><i className="fas fa-times" /></div>
-                            <div className="nav-logo"><a href="index.html"><img src="assets/img/logo/logo.png" alt="KATANA INU" title="KATANA INU"/></a>
+                            <div className="nav-logo"><Link to="/"><img src="assets/img/logo/logo.png" alt="KATANA INU" title="KATANA INU"/></Link>
                             </div>
                             <div className="menu-outer">
                                 {/*Here Menu Will Come Automatically Via Javascript / Same Menu as in Header*/}
