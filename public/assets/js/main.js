@@ -10,7 +10,7 @@ function preloader() {
 
 $(window).on('load', function () {
 	preloader();
-	mainSlider();
+	//mainSlider();
 	wowAnimation();
 });
 
@@ -72,7 +72,7 @@ $("[data-background]").each(function () {
 /*=============================================
 	=    		 Main Slider		      =
 =============================================*/
-function mainSlider() {
+/*function mainSlider() {
 	var BasicSlider = $('.slider-active');
 	BasicSlider.on('init', function (e, slick) {
 		var $firstAnimatingElements = $('.slider-item:first-child').find('[data-animation]');
@@ -110,7 +110,7 @@ function mainSlider() {
 			});
 		});
 	}
-}
+}*/
 
 
 /*=============================================

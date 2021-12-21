@@ -2,6 +2,10 @@
     background: #241e2a!important;
 }
 
+.faq-area{
+    position: relative;
+}
+
 .accordion-item {
     padding: 30px 0;
     border-top: 1px dashed #efa53c!important;
@@ -22,4 +26,23 @@
     font-size: 20px;
     font-weight: 500;
     line-height: 1.6em;
+}
+
+.shape {
+    overflow: hidden;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    line-height: 0;
+    direction: ltr;
+    fill: #1a191f;
+}
+
+.shape-top {
+    top: -25px;
+    transform: rotateZ(-180deg);
+}
+
+.shape.shape-bottom {
+    bottom: -25px;
 }

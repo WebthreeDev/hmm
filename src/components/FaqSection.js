@@ -23,7 +23,7 @@ class FaqSection extends React.Component {
             <div className='py-5'>
             <div className='container'>
                 <div className='row py-5'>
-                    <div className='col-md-7 m-auto'>
+                    <div className='col-md-8 m-auto'>
                         <div className="section-title text-center">
                             <h2 className="title text-dark text-capitalize">Frequently Asked Questions</h2>
                         </div>
@@ -32,6 +32,11 @@ class FaqSection extends React.Component {
                 </div>
             </div>
             <div className='faq-area py-5'>
+                <div className="shape shape-top" data-negative="false">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 10" preserveAspectRatio="none">
+                        <path d="M350,10L340,0h20L350,10z"></path>
+                    </svg> 
+                </div>
                <div className='container'>
                 <div className="accordion" id="accordionExample">
                         {
@@ -200,6 +205,11 @@ class FaqSection extends React.Component {
                         </div> */}
                     </div>
                </div>
+               <div className='shape shape-bottom' data-negative="false">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 10" preserveAspectRatio="none">
+                        <path d="M350,10L340,0h20L350,10z"></path>
+                    </svg> 
+                </div>
             </div>
             </div>
         )
