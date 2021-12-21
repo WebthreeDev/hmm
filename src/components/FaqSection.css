@@ -1,0 +1,25 @@
+.faq-area, .accordion, .accordion-item, .accordion-button{
+    background: #241e2a!important;
+}
+
+.accordion-item {
+    padding: 30px 0;
+    border-top: 1px dashed #efa53c!important;
+}
+
+.accordion-button:focus {
+    outline: 0;
+    border: none;
+    box-shadow: none!important;
+}
+
+.accordion-button::after {
+    display: none;
+}
+
+.accordion-header button {
+    font-family: poppins,Sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.6em;
+}

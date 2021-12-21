@@ -14,7 +14,7 @@ class Advisors extends React.Component {
                     </div>
                     <div className="row justify-content-center">
                     <div className="col-xl-3 col-lg-4 col-sm-6">
-                        <a href='https://www.linkedin.com/in/wulf-kaal-6904a65b/'>
+                        <a target="_blank" rel="noreferrer" href='https://www.linkedin.com/in/wulf-kaal-6904a65b/'>
                         <div className="team-item text-center">
                         <div className="team-thumb">
                             <img src="assets/img/team/advisor_01.jpg" alt="ADVISOR" />
@@ -28,7 +28,7 @@ class Advisors extends React.Component {
                         </a>
                     </div>
                     <div className="col-xl-3 col-lg-4 col-sm-6">
-                        <a href='https://www.linkedin.com/in/ianscarffe/'>
+                        <a target="_blank" rel="noreferrer" href='https://www.linkedin.com/in/ianscarffe/'>
                         <div className="team-item text-center">
                         <div className="team-thumb">
                             <img src="assets/img/team/advisor_02.jpg" alt="ADVISOR" />
@@ -42,7 +42,7 @@ class Advisors extends React.Component {
                         </a>
                     </div>
                     <div className="col-xl-3 col-lg-4 col-sm-6">
-                        <a href='https://www.linkedin.com/in/timotrippler/'>
+                        <a target="_blank" rel="noreferrer" href='https://www.linkedin.com/in/timotrippler/'>
                         <div className="team-item text-center">
                         <div className="team-thumb">
                             <img src="assets/img/team/advisor_03.jpg" alt="ADVISOR" />

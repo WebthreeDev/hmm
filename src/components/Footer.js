@@ -48,10 +48,10 @@ class Footer extends React.Component {
                         </div>
                         <div className="fw-link">
                         <ul>
-                            <li><a href="/#">Buy Katana Inu (Soon)</a></li>
-                            <li><a href="/katanainuwhitepaper.pdf">Whitepaper</a></li>
-                            <li><a href="/roadmap.png">Roadmap</a></li>
-                            <li><a href="/#">FAQ</a></li>
+                            <li><a target="_blank" rel="noreferrer" href="/#">Buy Katana Inu (Soon)</a></li>
+                            <li><a target="_blank" rel="noreferrer" href="/katanainuwhitepaper.pdf">Whitepaper</a></li>
+                            <li><a target="_blank" rel="noreferrer" href="/roadmap.png">Roadmap</a></li>
+                            <li><a target="_blank" rel="noreferrer" href="/#">FAQ</a></li>
                         </ul>
                         </div>
                     </div>
@@ -63,11 +63,11 @@ class Footer extends React.Component {
                         </div>
                         <div className="fw-link">
                         <ul>
-                            <li><a href="/#contact">Contact Us</a></li>
-                            <li><a href="https://discord.gg/sruA5AZPAS">Discord</a></li>
-                            <li><a href="https://medium.com/@katanainu/katana-inu-a-great-play2earn-battle-royale-pc-game-with-nft-marketplace-on-layer-2-a56f9bbcce79">Medium</a></li>
-                            <li><a href="https://www.reddit.com/r/katanainu">Reddit</a></li>
-                            <li><a href="https://chainvisiongames.com">ChainVision Games</a></li>
+                            <li><a target="_blank" rel="noreferrer" href="/#contact">Contact Us</a></li>
+                            <li><a target="_blank" rel="noreferrer" href="https://discord.gg/sruA5AZPAS">Discord</a></li>
+                            <li><a target="_blank" rel="noreferrer" href="https://medium.com/@katanainu/katana-inu-a-great-play2earn-battle-royale-pc-game-with-nft-marketplace-on-layer-2-a56f9bbcce79">Medium</a></li>
+                            <li><a target="_blank" rel="noreferrer" href="https://www.reddit.com/r/katanainu">Reddit</a></li>
+                            <li><a target="_blank" rel="noreferrer" href="https://chainvisiongames.com">ChainVision Games</a></li>
                         </ul>
                         </div>
                     </div>
@@ -79,14 +79,14 @@ class Footer extends React.Component {
                         </div>
                         <div className="footer-social">
                         <ul>
-                            <li><a href="https://instagram.com/katanainu"><i className="fab fa-instagram" /></a></li>
-                            {/* <li><a href="/#"><i className="fab fa-facebook" /></a></li>
-                            <li><a href="/#"><i className="fab fa-telegram" /></a></li> */}
-                            <li><a href="https://www.tiktok.com/@katanainu"><i className="fab fa-tiktok" /></a></li>
-                            <li><a href="https://medium.com/@katanainu/katana-inu-a-great-play2earn-battle-royale-pc-game-with-nft-marketplace-on-layer-2-a56f9bbcce79"><i className="fab fa-medium" /></a></li>
-                            <li><a href="https://twitter.com/katanainu"><i className="fab fa-twitter" /></a></li>
-                            {/* <li><a href="/#"><i className="fab fa-youtube" /></a></li> */}
-                            <li><a href="https://www.reddit.com/r/katanainu"><i className="fab fa-reddit" /></a></li>
+                            <li><a target="_blank" rel="noreferrer" href="https://instagram.com/katanainu"><i className="fab fa-instagram" /></a></li>
+                            {/* <li><a target="_blank" rel="noreferrer" href="/#"><i className="fab fa-facebook" /></a></li>
+                            <li><a target="_blank" rel="noreferrer" href="/#"><i className="fab fa-telegram" /></a></li> */}
+                            <li><a target="_blank" rel="noreferrer" href="https://www.tiktok.com/@katanainu"><i className="fab fa-tiktok" /></a></li>
+                            <li><a target="_blank" rel="noreferrer" href="https://medium.com/@katanainu/katana-inu-a-great-play2earn-battle-royale-pc-game-with-nft-marketplace-on-layer-2-a56f9bbcce79"><i className="fab fa-medium" /></a></li>
+                            <li><a target="_blank" rel="noreferrer" href="https://twitter.com/katanainu"><i className="fab fa-twitter" /></a></li>
+                            {/* <li><a target="_blank" rel="noreferrer" href="/#"><i className="fab fa-youtube" /></a></li> */}
+                            <li><a target="_blank" rel="noreferrer" href="https://www.reddit.com/r/katanainu"><i className="fab fa-reddit" /></a></li>
                         </ul>
                         </div>
                     </div>
@@ -99,7 +99,7 @@ class Footer extends React.Component {
                 <div className="row justify-content-center">
                     <div className="col-12">
                     <div className="copyright-text text-center">
-                        <p>Copyright © 2021 <a href="https://chainvisiongames.com">ChainVision Games.</a> All Rights Reserved.</p>
+                        <p>Copyright © 2021 <a target="_blank" rel="noreferrer" href="https://chainvisiongames.com">ChainVision Games.</a> All Rights Reserved.</p>
                     </div>
                     </div>
                 </div>
