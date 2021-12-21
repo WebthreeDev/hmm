@@ -1,7 +1,33 @@
 import React from 'react';
 import './Contact.css';
+import emailjs from 'emailjs-com';
 
 class Contact extends React.Component {
+    constructor(props){
+        super(props);
+        this.state = {
+            name: '',
+            email: '',
+            message: ''
+        }
+    }
+    handleSubmit(e){
+        e.preventDefault();
+        emailjs.sendForm('service_3vunswn', 'template_zd4ta2q',e.target, 'user_3maxhTqQjJL5Xcwy9Okjq')
+        .then((result) => {
+            console.log(result.text);
+            this.setState({
+                name: '',
+                email:'',
+                message: ''
+            });
+        }).catch((error) => {
+            console.log(error.text);
+        });
+        
+    }
+
+
     render() {
         return (
             <section className="contact-area" id="contact">
@@ -25,11 +51,11 @@ class Contact extends React.Component {
                         </div>
                     </div>
                     <div className="col-lg-7">
-                        <form action="#" className="contact-form">
-                        <input type="text" placeholder="Your Name" />
-                        <input type="email" placeholder="Your Email" />
-                        <textarea name="message" id="message" placeholder="Your Message" defaultValue={""} />
-                        <button type="submit">Submit Now</button>
+                        <form className="contact-form" onSubmit={this.handleSubmit}>
+                            <input type="text" placeholder="Your Name" name='name' value={this.state.name} onChange={(event)=> this.setState({name: event.target.value})}/>
+                            <input type="email" placeholder="Your Email" name='email' value={this.state.email} onChange={(event)=> this.setState({email: event.target.value})}/>
+                            <textarea id="message" placeholder="Your Message" name="message" value={this.state.message} onChange={(event)=> this.setState({message: event.target.value})}/>
+                            <button type="submit">Submit Now</button>
                         </form>
                     </div>
                     </div>
