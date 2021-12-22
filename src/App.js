@@ -16,6 +16,7 @@ import Value from './components/Value';
 import Trailer from './components/Trailer';
 import Advisors from './components/Advisors';
 import Brands from './components/Brands';
+import Links from './components/Links';
 
 function App() {
   return (
@@ -40,6 +41,9 @@ function App() {
           </Route>
           <Route exact path="/faq">
             <Faq/>
+          </Route>
+          <Route exact path="/links">
+            <Links/>
           </Route>
         </Switch>
         <Footer/>

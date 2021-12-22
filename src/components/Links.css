@@ -1,0 +1,26 @@
+ul.links-list li {
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+ul.links-list li a {
+    display: block;
+    padding: 20px 40px;
+    font-size: 30px;
+    background: #c4302b;
+    color: #fff;
+    border-radius: 6px;
+    text-align: center;
+    box-shadow: 1px 4px 7px rgba(0,0,0,0.5);
+}
+
+ul.links-list li a i {
+    margin-right: 15px;
+}
+
+@media only screen and (max-width:414px){
+    ul.links-list li {
+        width: 90%;
+    }
+}
