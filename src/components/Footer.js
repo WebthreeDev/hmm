@@ -51,6 +51,7 @@ class Footer extends React.Component {
                             <li><a target="_blank" rel="noreferrer" href="/#">Buy Katana Inu (Soon)</a></li>
                             <li><a target="_blank" rel="noreferrer" href="/katanainuwhitepaper.pdf">Whitepaper</a></li>
                             <li><a target="_blank" rel="noreferrer" href="/roadmap.png">Roadmap</a></li>
+                            <li><a target="_blank" rel="noreferrer" href="https://katanainu.com/katanainutokenomics.pdf">Tokenomics</a></li>
                             <li><a target="_blank" rel="noreferrer" href="/#">FAQ</a></li>
                         </ul>
                         </div>
