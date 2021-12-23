@@ -12,7 +12,7 @@ class FaqSection extends React.Component {
                 { id: 4, title: "Is there a buy and sell limit?", decscription: "After the launch: No, there is no sell or buy limit."},
                 { id: 5, title: "How much should the slippage fee be when buying/selling?", decscription: "The slippage fee is 10%. If this one doesn’t work out, feel free to try 11-15% slippage."},
                 { id: 6, title: "Can we do Katana Staking?", decscription: "Currently we do not have this planned for the token, but we will have a NFT Staking."},
-                { id: 7, title: "Where can we see the whitepaper?", decscription: "www.katanainu.com/whitepaper"}
+                { id: 7, title: "Where can we see the whitepaper?", decscription: "https://katanainu.com/katanainuwhitepaper.pdf"}
             ]
         };
     }

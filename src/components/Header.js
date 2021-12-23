@@ -46,12 +46,12 @@ class Header extends React.Component {
                 <div className="header-top-area">
                     <div className="container">
                     <div className="row align-items-center">
-                        <div className="col-lg-6 d-none d-lg-block">
+                        {/* <div className="col-lg-6 d-none d-lg-block">
                         <div className="header-top-offer">
                             <p>SALE COMING SOON - We are still working on Katana Inu</p>
                         </div>
-                        </div>
-                        <div className="col-lg-6">
+                        </div> */}
+                        <div className="col-lg-6 m-auto">
                         <div className="header-social">
                             <span>Follow us on :</span>
                             {/* <ul>
