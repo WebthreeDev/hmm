@@ -5,12 +5,12 @@ class CommingSoon extends React.Component {
 
     render() {
         return (
-            <section className="coming-soon-area bg-white pb-5">
+            <section className="coming-soon-area bg-white pb-5" id="tokenomics">
                 <div className="container">
                     <div className="row justify-content-center pb-5 mb-5">
                         <div className="col-xl-8 col-lg-10">
                             <div className="section-title text-center">
-                            <span className="sub-title">Our SALE</span>
+                            {/* <span className="sub-title">Our SALE</span> */}
                             <h2 className="title text-dark">You can purchase now on  <span>Pancake Swap</span> and <span>Uniswap</span></h2>
                             </div>
                         </div>

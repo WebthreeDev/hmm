@@ -3,7 +3,7 @@ import React from 'react';
 class Mission extends React.Component {
     render() {
         return (
-            <section className="mission-area">
+            <section className="mission-area" id="mission">
                 <div className="container">
                     <div className="row align-items-center">
                     <div className="col-lg-6 order-0 order-lg-2">

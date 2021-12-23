@@ -4,7 +4,7 @@ import './Features.css';
 class Features extends React.Component {
     render() {
         return (
-            <section className="features-area">
+            <section className="features-area" id="features">
                 <div className="container">
                     <div className="row justify-content-center">
                     <div className="col-xl-7 col-lg-9">

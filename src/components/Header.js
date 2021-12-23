@@ -79,10 +79,10 @@ class Header extends React.Component {
                             <div className="navbar-wrap main-menu d-none d-lg-flex">
                                 <ul className="navigation">
                                 <li className="active"><a href="/#">Gaming</a></li>
-                                <li><a href="/katanainutokenomics.pdf">Tokenomics</a></li>
-                                <li><a href="/#">Why Katana Inu</a></li>
+                                <li><a href="/#tokenomics">Tokenomics</a></li>
+                                <li><a href="/#mission">Why Katana Inu</a></li>
                                 <li><a href="/#roadmap">roadmap</a></li>
-                                <li><a href="/#">contact</a></li>
+                                <li><a href="/#contact">contact</a></li>
                                 <li>
                                     <Link to="/faq">FAQ</Link>
                                 </li>
