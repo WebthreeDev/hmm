@@ -19,15 +19,15 @@ class Contact extends React.Component {
     handleSubmit(e){
         e.preventDefault();
         if( this.state.name === '' || this.state.email === '' || this.state.message === '' ){
-            this.setState({ isEmpltyFields: true });
+            this.setState({ isEmpltyFields: true, isError: false, isMailSent: false });
         }else{
-            emailjs.sendForm('service_3vunswn', 'template_zd4ta2q',e.target, 'user_3maxhTqQjJL5Xcwy9Okjq')
+            emailjs.sendForm('service_1mh6l1n', 'template_57vzfgb',e.target, 'user_aDWf0Fxc1IFk7tWkcHrTO')
             .then((result) => {
                 console.log(result.text);
-                this.setState({isMailSent: true})
+                this.setState({isMailSent: true, isEmpltyFields: false, isError: false})
             }).catch((error) => {
                 console.log(error.text);
-                this.setState({isError: true})
+                this.setState({isError: true, isMailSent: false, isEmpltyFields: false})
             });
             e.target.reset();
         }
@@ -58,9 +58,9 @@ class Contact extends React.Component {
                             </div>
                         </div>
                         <div className="col-lg-7">
-                            { this.state.isError && <p className='alert alert-warning'>Can't sent your mail now!</p> }
-                            { this.state.isMailSent && <p className='alert alert-succeess'>Your mail has been sent successfully!</p> }
-                            { this.state.isEmpltyFields && <p className='alert alert-danger'>Fields can not be empty!</p> }
+                            { this.state.isError && !this.state.isEmpltyFields && !this.state.isMailSent && <p className='alert alert-warning'>Can't sent your mail now!</p> }
+                            { this.state.isMailSent && !this.state.isError && !this.state.isEmpltyFields && <p className='alert alert-success'>Your mail has been sent successfully!</p> }
+                            { this.state.isEmpltyFields && !this.state.isError && !this.state.isMailSent && <p className='alert alert-danger'>Fields can not be empty!</p> }
                             <form className="contact-form" onSubmit={this.handleSubmit}>
                                 <input type="text" placeholder="Your Name" name='name' value={this.state.name} onChange={(event)=> this.setState({name: event.target.value})}/>
                                 <input type="email" placeholder="Your Email" name='email' value={this.state.email} onChange={(event)=> this.setState({email: event.target.value})}/>

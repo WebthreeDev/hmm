@@ -1,6 +1,7 @@
 import React from 'react';
 import $ from 'jquery';
 import { Link } from 'react-router-dom';
+import SocialLinks from './SocialLinks';
 
 class Header extends React.Component {
     componentDidMount(){
@@ -53,12 +54,13 @@ class Header extends React.Component {
                         <div className="col-lg-6">
                         <div className="header-social">
                             <span>Follow us on :</span>
-                            <ul>
+                            {/* <ul>
                             <li><a href="/#"><i className="fab fa-facebook-f" /></a></li>
                             <li><a href="/#"><i className="fab fa-twitter" /></a></li>
                             <li><a href="/#"><i className="fab fa-pinterest-p" /></a></li>
                             <li><a href="/#"><i className="fab fa-linkedin-in" /></a></li>
-                            </ul>
+                            </ul> */}
+                            <SocialLinks/>
                         </div>
                         </div>
                     </div>
@@ -77,7 +79,7 @@ class Header extends React.Component {
                             <div className="navbar-wrap main-menu d-none d-lg-flex">
                                 <ul className="navigation">
                                 <li className="active"><a href="/#">Gaming</a></li>
-                                <li><a href="/#chart">Tokenomics</a></li>
+                                <li><a href="/katanainutokenomics.pdf">Tokenomics</a></li>
                                 <li><a href="/#">Why Katana Inu</a></li>
                                 <li><a href="/#roadmap">roadmap</a></li>
                                 <li><a href="/#">contact</a></li>
@@ -103,13 +105,14 @@ class Header extends React.Component {
                                 {/*Here Menu Will Come Automatically Via Javascript / Same Menu as in Header*/}
                             </div>
                             <div className="social-links">
-                                <ul className="clearfix">
+                                {/* <ul className="clearfix">
                                 <li><a href="/#"><span className="fab fa-twitter" /></a></li>
                                 <li><a href="/#"><span className="fab fa-facebook-square" /></a></li>
                                 <li><a href="/#"><span className="fab fa-pinterest-p" /></a></li>
                                 <li><a href="/#"><span className="fab fa-instagram" /></a></li>
                                 <li><a href="/#"><span className="fab fa-youtube" /></a></li>
-                                </ul>
+                                </ul> */}
+                                <SocialLinks className="clearfix"/>
                             </div>
                             </nav>
                         </div>
