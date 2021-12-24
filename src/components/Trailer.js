@@ -1,6 +1,14 @@
 import React from 'react';
+import $ from 'jquery';
+import 'magnific-popup';
 
 class Trailer extends React.Component {
+    componentDidMount(){
+        /* magnificPopup video view */
+        $('.popup-video').magnificPopup({
+            type: 'iframe'
+        });
+    }
     render() {
         return (
             <section className="trailer-area">
