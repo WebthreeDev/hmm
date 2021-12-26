@@ -1,0 +1,32 @@
+.post-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.post-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.post-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.post-card .post-contents .post-date {
+    font-size: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.post-card .post-contents .post-date i {
+    margin-right: 10px;
+}
+
+.post-contents {
+    margin-top: 15px;
+}

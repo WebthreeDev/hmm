@@ -1,7 +1,8 @@
 import React from 'react';
-import './Footer.css';
 import { Link  } from 'react-router-dom';
 import SocialLinks from './SocialLinks';
+import PostCard from './PostCard';
+import './Footer.css';
 
 class Footer extends React.Component {
     render() {
@@ -31,8 +32,8 @@ class Footer extends React.Component {
                 </div>
                 </div>
                 <div className="container">
-                <div className="row justify-content-between">
-                    <div className="col-xl-3 col-lg-3 col-md-6">
+                <div className="row justify-content-between no-gutter">
+                    <div className="col-xl-2 col-lg-2 col-sm-12 col-md-6">
                     <div className="footer-widget mb-50">
                         <div className="footer-logo mb-35">
                             <Link to="/"><img src="assets/img/logo/logo.png" alt="KATANA INU"/></Link>
@@ -42,7 +43,7 @@ class Footer extends React.Component {
                         </div>
                     </div>
                     </div>
-                    <div className="col-lg-3 col-sm-6">
+                    <div className="col-lg-2 col-sm-12 col-sm-6">
                     <div className="footer-widget mb-50">
                         <div className="fw-title mb-25">
                         <h5 className="title">Products</h5>
@@ -58,7 +59,7 @@ class Footer extends React.Component {
                         </div>
                     </div>
                     </div>
-                    <div className="col-lg-3 col-sm-6">
+                    <div className="col-lg-2 col-sm-12 col-sm-6">
                     <div className="footer-widget mb-50">
                         <div className="fw-title mb-25">
                         <h5 className="title">Need Help?</h5>
@@ -74,7 +75,19 @@ class Footer extends React.Component {
                         </div>
                     </div>
                     </div>
-                    <div className="col-xl-3 col-lg-3 col-md-6">
+
+                    <div className="col-lg-2 col-sm-12 col-sm-6">
+                    <div className="footer-widget mb-50">
+                        <div className="fw-title mb-25">
+                        <h5 className="title">Latest Posts</h5>
+                        </div>
+                        <div className="latest-posts">
+                            <PostCard/>
+                        </div>
+                    </div>
+                    </div>
+                    
+                    <div className="col-xl-2 col-lg-2 col-sm-12 col-md-6">
                     <div className="footer-widget mb-50">
                         <div className="fw-title mb-25">
                         <h5 className="title">Follow us</h5>

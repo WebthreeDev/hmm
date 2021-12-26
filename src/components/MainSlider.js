@@ -2,6 +2,7 @@ import React from 'react';
 import './MainSlider.css';
 import $ from 'jquery';
 import 'slick-carousel';
+import { Stream } from '@cloudflare/stream-react';
 
 class MainSlider extends React.Component {
     componentDidMount(){
@@ -57,9 +58,9 @@ class MainSlider extends React.Component {
             <section className="slider-area">
                 <div className="slider-active">
                     <div className="slider-item slider-bg">
-                    <video id="videoBG" autoPlay muted loop>
-                        <source src="assets/video/a.mp4" type="video/mp4" />
-                    </video>
+                    <div id="videoBG">
+                        <Stream autoplay src='89c4d83d0968a5f98f1898a7aa99a37a'/>
+                    </div>
                     <div className="container">
                         <div className="row">
                         <div className="col-xl-6 col-lg-8 col-md-11">
@@ -78,9 +79,9 @@ class MainSlider extends React.Component {
                     </div>
                     </div>
                     <div className="slider-item slider-bg">
-                    <video id="videoBG" autoPlay muted loop>
-                        <source src="assets/video/DF_1.mov" type="video/mp4" />
-                    </video>
+                    <div id="videoBG">
+                        <Stream autoplay src='cd9941ee430d716838bc523ec689a155'/>
+                    </div>
                     <div className="container">
                         <div className="row">
                         <div className="col-xl-6 col-lg-8 col-md-11">
@@ -99,9 +100,9 @@ class MainSlider extends React.Component {
                     </div>
                     </div>
                     <div className="slider-item slider-bg">
-                    <video id="videoBG" autoPlay muted loop>
-                        <source src="assets/video/b.mp4" type="video/mp4" />
-                    </video>
+                    <div id="videoBG">
+                        <Stream autoplay src='2682a2c00c5ccc042c25142bc0764d87'/>
+                    </div>
                     <div className="container">
                         <div className="row">
                         <div className="col-xl-6 col-lg-8 col-md-11">
@@ -122,9 +123,9 @@ class MainSlider extends React.Component {
                     </div>
                     </div>
                     <div className="slider-item slider-bg">
-                    <video id="videoBG" autoPlay muted loop>
-                        <source src="assets/video/c.mp4" type="video/mp4" />
-                    </video>
+                    <div id="videoBG">
+                        <Stream autoplay src='0057be5dcca17a95d20f5d72e09fd621'/>
+                    </div>
                     <div className="container">
                         <div className="row">
                         <div className="col-xl-6 col-lg-8 col-md-11">
@@ -144,9 +145,9 @@ class MainSlider extends React.Component {
                     </div>
                     </div>
                     <div className="slider-item slider-bg">
-                    <video id="videoBG" autoPlay muted loop>
-                        <source src="assets/video/d.mp4" type="video/mp4" />
-                    </video>
+                    <div id="videoBG">
+                        <Stream autoplay src='990101b5a18cc6b439d531ac131e2ee4'/>
+                    </div>
                     <div className="container">
                         <div className="row">
                         <div className="col-xl-6 col-lg-7 col-md-11">

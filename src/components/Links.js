@@ -31,12 +31,12 @@ class Links extends React.Component {
                                                 Instagram
                                             </a>
                                         </li>
-                                        {/* <li>
-                                            <a target="_blank" rel="noreferrer" href='/#'  style={{background : '#0077b5'}}>
-                                                <i className="fab fa-linkedin"></i>
-                                                Linkedin
+                                        <li>
+                                            <a target="_blank" rel="noreferrer" href='https://t.me/katanainu'  style={{background : '#0077b5'}}>
+                                                <i className="fab fa-telegram"></i>
+                                                Telegram
                                             </a>
-                                        </li> */}
+                                        </li>
 
                                         <li>
                                             <a target="_blank" rel="noreferrer" href='https://www.tiktok.com/@katanainu'  style={{background : '#000'}}>
