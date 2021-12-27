@@ -1,65 +1,49 @@
 import React from 'react';
 import './MainSlider.css';
-import $ from 'jquery';
-import 'slick-carousel';
+import Slider from 'react-slick';
 import { Stream } from '@cloudflare/stream-react';
 
-class MainSlider extends React.Component {
-    componentDidMount(){
-        /*=============================================
-            =    		 Main Slider		      =
-        =============================================*/
-        this.mainSlider();
-    }
+function PrevArrow(props) {
+    const { className, onClick } = props;
+    return (
+        <button type="button" className={ className  } onClick={ onClick }><img src="assets/img/icon/arrow_left.png" alt="PREV"/></button>
+    );
+}
+  
+function NextArrow(props) {
+    const { className, onClick } = props;
+    return (
+        <button type="button" className={ className  } onClick={ onClick }><img src="assets/img/icon/arrow_right.png" alt="NEXT"/></button>
+    );
+}
 
-    mainSlider() {
-        var BasicSlider = $('.slider-active');
-        BasicSlider.on('init', function (e, slick) {
-            var $firstAnimatingElements = $('.slider-item:first-child').find('[data-animation]');
-            doAnimations($firstAnimatingElements);
-        });
-        BasicSlider.on('beforeChange', function (e, slick, currentSlide, nextSlide) {
-            var $animatingElements = $('.slider-item[data-slick-index="' + nextSlide + '"]').find('[data-animation]');
-            doAnimations($animatingElements);
-        });
-        BasicSlider.slick({
+class MainSlider extends React.Component {
+  
+    render() {
+        const settings = {
             autoplay: false,
             autoplaySpeed: 10000,
             dots: false,
             fade: true,
             arrows: true,
-            prevArrow: '<button type="button" class="slick-prev"><img src="assets/img/icon/arrow_left.png" alt=""></button>',
-            nextArrow: '<button type="button" class="slick-next"><img src="assets/img/icon/arrow_right.png" alt=""></button>',
+            lazyload:true,
+            prevArrow: <PrevArrow/>,
+            nextArrow: <NextArrow/>,
             responsive: [
                 { breakpoint: 767, settings: { arrows: false } }
             ]
-        });
-
-        function doAnimations(elements) {
-            var animationEndEvents = 'webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend';
-            elements.each(function () {
-                var $this = $(this);
-                var $animationDelay = $this.data('delay');
-                var $animationType = 'animated ' + $this.data('animation');
-                $this.css({
-                    'animation-delay': $animationDelay,
-                    '-webkit-animation-delay': $animationDelay
-                });
-                $this.addClass($animationType).one(animationEndEvents, function () {
-                    $this.removeClass($animationType);
-                });
-            });
-        }
-    }
-  
-    render() {
+        };
 
         return (
             <section className="slider-area">
-                <div className="slider-active">
-                    <div className="slider-item slider-bg">
+                <Slider {...settings} className='slider-active'>
+                <div className="slider-item slider-bg">
+                    {/* <video id="videoBG" autoPlay muted loop>
+                        <source src="assets/video/a.mp4" type="video/mp4" />
+                    </video> */}
+
                     <div id="videoBG">
-                        <Stream autoplay src='89c4d83d0968a5f98f1898a7aa99a37a'/>
+                        <Stream autoplay loop muted src='89c4d83d0968a5f98f1898a7aa99a37a'/>
                     </div>
                     <div className="container">
                         <div className="row">
@@ -79,8 +63,11 @@ class MainSlider extends React.Component {
                     </div>
                     </div>
                     <div className="slider-item slider-bg">
+                    {/* <video id="videoBG" autoPlay muted loop>
+                        <source src="assets/video/DoFire.mp4" type="video/mp4" />
+                    </video> */}
                     <div id="videoBG">
-                        <Stream autoplay src='cd9941ee430d716838bc523ec689a155'/>
+                        <Stream autoplay loop muted src='cd9941ee430d716838bc523ec689a155'/>
                     </div>
                     <div className="container">
                         <div className="row">
@@ -100,8 +87,11 @@ class MainSlider extends React.Component {
                     </div>
                     </div>
                     <div className="slider-item slider-bg">
+                    {/* <video id="videoBG" autoPlay muted loop>
+                        <source src="assets/video/b.mp4" type="video/mp4" />
+                    </video> */}
                     <div id="videoBG">
-                        <Stream autoplay src='2682a2c00c5ccc042c25142bc0764d87'/>
+                        <Stream autoplay loop muted src='2682a2c00c5ccc042c25142bc0764d87'/>
                     </div>
                     <div className="container">
                         <div className="row">
@@ -123,8 +113,11 @@ class MainSlider extends React.Component {
                     </div>
                     </div>
                     <div className="slider-item slider-bg">
+                    {/* <video id="videoBG" autoPlay muted loop>
+                        <source src="assets/video/c.mp4" type="video/mp4" />
+                    </video> */}
                     <div id="videoBG">
-                        <Stream autoplay src='0057be5dcca17a95d20f5d72e09fd621'/>
+                        <Stream autoplay loop muted src='0057be5dcca17a95d20f5d72e09fd621'/>
                     </div>
                     <div className="container">
                         <div className="row">
@@ -145,8 +138,11 @@ class MainSlider extends React.Component {
                     </div>
                     </div>
                     <div className="slider-item slider-bg">
-                    <div id="videoBG">
-                        <Stream autoplay src='990101b5a18cc6b439d531ac131e2ee4'/>
+                    {/* <video id="videoBG" autoPlay muted loop>
+                        <source src="assets/video/d.mp4" type="video/mp4" />
+                    </video> */}
+                     <div id="videoBG">
+                        <Stream autoplay loop muted src='990101b5a18cc6b439d531ac131e2ee4'/>
                     </div>
                     <div className="container">
                         <div className="row">
@@ -166,7 +162,7 @@ class MainSlider extends React.Component {
                         </div>
                     </div>
                     </div>
-                </div>
+                </Slider>
             </section>
 
         )

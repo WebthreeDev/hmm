@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link  } from 'react-router-dom';
 import SocialLinks from './SocialLinks';
-import PostCard from './PostCard';
+// import PostCard from './PostCard';
 import './Footer.css';
 
 class Footer extends React.Component {
@@ -76,7 +76,7 @@ class Footer extends React.Component {
                     </div>
                     </div>
 
-                    <div className="col-lg-2 col-sm-12 col-sm-6">
+                    {/* <div className="col-lg-2 col-sm-12 col-sm-6">
                     <div className="footer-widget mb-50">
                         <div className="fw-title mb-25">
                         <h5 className="title">Latest Posts</h5>
@@ -85,7 +85,7 @@ class Footer extends React.Component {
                             <PostCard/>
                         </div>
                     </div>
-                    </div>
+                    </div> */}
                     
                     <div className="col-xl-2 col-lg-2 col-sm-12 col-md-6">
                     <div className="footer-widget mb-50">

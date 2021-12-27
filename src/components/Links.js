@@ -68,7 +68,7 @@ class Links extends React.Component {
                                         </li>
                                         <li>
                                             <a target="_blank" rel="noreferrer" href='https://www.reddit.com/r/katanainu'  style={{background : '#FF4301'}}>
-                                                Redit
+                                                Reddit
                                             </a>
                                         </li>
                                     </ul>
