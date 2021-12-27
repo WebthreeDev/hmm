@@ -7,11 +7,11 @@ class FaqSection extends React.Component {
         this.state = { 
             data: [
                 { id: 1, title: "What is Katana Inu?", decscription: "A Deflationary Token on Ethereum with a PC-Game Interface and an Innovative NFT Ecosystem, with 4% Ethereum Reward to Holders"},
-                { id: 2, title: "When do we get our ETH allowances?", decscription: "The Ethereum rewards are automatically credited to the holder’s wallet after about 12 hours."},
+                //{ id: 2, title: "When do we get our ETH allowances?", decscription: "The Ethereum rewards are automatically credited to the holder’s wallet after about 12 hours."},
                 { id: 3, title: "Who are the team members?", decscription: "A group from the Space who have come together – 15 team members from Europe, who have already accompanied many projects and is well-rehearsed."},
                 { id: 4, title: "Is there a buy and sell limit?", decscription: "After the launch: No, there is no sell or buy limit."},
-                { id: 5, title: "How much should the slippage fee be when buying/selling?", decscription: "The slippage fee is 10%. If this one doesn’t work out, feel free to try 11-15% slippage."},
-                { id: 6, title: "Can we do Katana Staking?", decscription: "Currently we do not have this planned for the token, but we will have a NFT Staking."},
+                //{ id: 5, title: "How much should the slippage fee be when buying/selling?", decscription: "The slippage fee is 10%. If this one doesn’t work out, feel free to try 11-15% slippage."},
+                { id: 6, title: "Can we do Katana Staking?", decscription: "Yes. You can stake your $KATA soon. We are working on that staking mechanism and it will be announced soon."},
                 { id: 7, title: "Where can we see the whitepaper?", decscription: "https://katanainu.com/katanainuwhitepaper.pdf"}
             ]
         };

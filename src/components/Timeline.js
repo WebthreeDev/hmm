@@ -47,7 +47,7 @@ class Timeline extends React.Component {
                         <li> Game Trailer</li>
                         <li>E-Commerce Launch</li>
                         <li> Wallet development</li>
-                        <li>Serveral Updates</li>
+                        <li>Several Updates</li>
                         <li>NFT & Exchange launch</li>
                         <li>Creating 3D NFT skins Charity Action</li>
                         <li>Game Blog Website</li>
