@@ -50,7 +50,8 @@ class Footer extends React.Component {
                         </div>
                         <div className="fw-link">
                         <ul>
-                            <li><a target="_blank" rel="noreferrer" href="/#">Buy Katana Inu (Soon)</a></li>
+                            <li><a target="_blank" rel="noreferrer" href="https://pancakeswap.finance/swap?outputCurrency=0x6D6bA21E4C4b29CA7Bfa1c344Ba1E35B8DaE7205">Pancakeswap</a></li>
+                            <li><a target="_blank" rel="noreferrer" href="https://app.uniswap.org/#/swap?inputCurrency=0x2e85ae1C47602f7927bCabc2Ff99C40aA222aE15">Uniswap</a></li>
                             <li><a target="_blank" rel="noreferrer" href="/katanainuwhitepaper.pdf">Whitepaper</a></li>
                             <li><a target="_blank" rel="noreferrer" href="/roadmap.png">Roadmap</a></li>
                             <li><a target="_blank" rel="noreferrer" href="/katanainutokenomics.pdf">Tokenomics</a></li>

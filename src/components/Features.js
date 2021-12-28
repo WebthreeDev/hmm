@@ -21,7 +21,7 @@ class Features extends React.Component {
                             <img src="assets/img/icon/features_icon01.png" alt="FAUTURE" />
                         </div>
                         <div className="features-content">
-                            <h4 className="title">AAA PC Game</h4>
+                            <h4 className="title">High Graphics PC-Game</h4>
                             <p>We will build high-end PC-GAMES with various buyable in-game NFT items. These items can be purchased with the Katana Inu token through our NFT system. The revenue earned from our games is reinvested into the Katana Inu platform to boost its market cap. These Katana Inu games are currently in development and will be released to the public soon.</p>
                         </div>
                         </div>

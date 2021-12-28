@@ -55,6 +55,20 @@ class Advisors extends React.Component {
                         </div>
                         </a>
                     </div>
+                    <div className="col-xl-3 col-lg-4 col-sm-6">
+                        <a target="_blank" rel="noreferrer" href='https://www.linkedin.com/in/timotrippler/'>
+                        <div className="team-item text-center">
+                        <div className="team-thumb">
+                            <img src="assets/img/team/advisor_04.jpg" alt="ADVISOR" />
+                        </div>
+                        <div className="team-info">
+                            <span>WEB DEVELOPER</span>
+                            <h4 className="title">Yeadh</h4>
+                            <p>Web Developer</p>
+                        </div>
+                        </div>
+                        </a>
+                    </div>
                     </div>
                 </div>
             </section>

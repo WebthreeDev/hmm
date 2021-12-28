@@ -21,7 +21,7 @@ class Contact extends React.Component {
         if( this.state.name === '' || this.state.email === '' || this.state.message === '' ){
             this.setState({ isEmpltyFields: true, isError: false, isMailSent: false });
         }else{
-            emailjs.sendForm('service_1mh6l1n', 'template_57vzfgb',e.target, 'user_aDWf0Fxc1IFk7tWkcHrTO')
+            emailjs.sendForm('service_hj0fe0o', 'template_qh7q8hg',e.target, 'user_aDWf0Fxc1IFk7tWkcHrTO')
             .then((result) => {
                 console.log(result.text);
                 this.setState({isMailSent: true, isEmpltyFields: false, isError: false})
@@ -53,7 +53,7 @@ class Contact extends React.Component {
                             <div className="contact-info-list">
                             <ul>
                                 <li><i className="fab fa-telegram" /><a target="_blank" href="https://www.t.me/katanainu" rel="noreferrer">Join us on Telegram &gt;</a></li>
-                                <li><i className="fas fa-envelope" /><a href="http://contact@katanainu.com">contact@katanainu.com</a></li>
+                                <li><i className="fas fa-envelope" /><a href="http://support@katanainu.com">support@katanainu.com</a></li>
                             </ul>
                             </div>
                         </div>

@@ -26,7 +26,7 @@ class MainSlider extends React.Component {
             dots: false,
             fade: true,
             arrows: true,
-            lazyload:true,
+            lazyLoad:true,
             prevArrow: <PrevArrow/>,
             nextArrow: <NextArrow/>,
             responsive: [
@@ -37,7 +37,7 @@ class MainSlider extends React.Component {
         return (
             <section className="slider-area">
                 <Slider {...settings} className='slider-active'>
-                <div className="slider-item slider-bg">
+                    <div className="slider-item slider-bg">
                     {/* <video id="videoBG" autoPlay muted loop>
                         <source src="assets/video/a.mp4" type="video/mp4" />
                     </video> */}
@@ -53,9 +53,9 @@ class MainSlider extends React.Component {
                             <h2 className="title" data-animation="fadeInUp" data-delay=".4s">PC-Game with <span>NFT Ecosystem</span></h2>
                             <p className="desc" data-animation="fadeInUp" data-delay=".6s">Katana Inu - We build a play2earn BattleRoyale NFT PC-Game with an intergrated NFT Marketplace on layer 2 solution (Ethereum). All In-game skins will be an NFT.</p>
                             <div className="slider-btn-wrap" data-animation="fadeInUp" data-delay=".8s">
-                                <a href="/#" className="btn btn-style-two">COMING SOON</a>
+                                <a href="https://app.uniswap.org/#/swap?inputCurrency=0x2e85ae1C47602f7927bCabc2Ff99C40aA222aE15" target="_blank" rel="noreferrer" className="btn btn-style-two">Uniswap</a>
+                                <a href="https://pancakeswap.finance/swap?outputCurrency=0x6D6bA21E4C4b29CA7Bfa1c344Ba1E35B8DaE7205" target="_blank" rel="noreferrer" className="btn btn-style-two">Pancakeswap</a>
                                 <a target="_blank" rel="noreferrer" href="/katanainuwhitepaper.pdf" className="btn btn-style-two">Whitepaper</a>
-                                <a href="/#" className="btn btn-style-two">Donate</a>
                             </div>
                             </div>
                         </div>
@@ -77,9 +77,9 @@ class MainSlider extends React.Component {
                             <h2 className="title" data-animation="fadeInUp" data-delay=".4s">PC-Game with <span>NFT Ecosystem</span></h2>
                             <p className="desc" data-animation="fadeInUp" data-delay=".6s">Katana Inu - We build a play2earn BattleRoyale NFT PC-Game with an intergrated NFT Marketplace on layer 2 solution (Ethereum). All In-game skins will be an NFT.</p>
                             <div className="slider-btn-wrap" data-animation="fadeInUp" data-delay=".8s">
-                                <a href="/#" className="btn btn-style-two">COMING SOON</a>
+                                <a href="https://app.uniswap.org/#/swap?inputCurrency=0x2e85ae1C47602f7927bCabc2Ff99C40aA222aE15" target="_blank" rel="noreferrer" className="btn btn-style-two">Uniswap</a>
+                                <a href="https://pancakeswap.finance/swap?outputCurrency=0x6D6bA21E4C4b29CA7Bfa1c344Ba1E35B8DaE7205" target="_blank" rel="noreferrer" className="btn btn-style-two">Pancakeswap</a>
                                 <a target="_blank" rel="noreferrer" href="/katanainuwhitepaper.pdf" className="btn btn-style-two">Whitepaper</a>
-                                <a href="/#" className="btn btn-style-two">Donate</a>
                             </div>
                             </div>
                         </div>
@@ -103,9 +103,9 @@ class MainSlider extends React.Component {
                                 PC-Game with an intergrated NFT Marketplace on layer 2 solution (Ethereum). All In-game skins will be an NFT.
                             </p>
                             <div className="slider-btn-wrap" data-animation="fadeInUp" data-delay=".8s">
-                                <a href="/#" className="btn btn-style-two">COMING SOON</a>
+                                <a href="https://app.uniswap.org/#/swap?inputCurrency=0x2e85ae1C47602f7927bCabc2Ff99C40aA222aE15" target="_blank" rel="noreferrer" className="btn btn-style-two">Uniswap</a>
+                                <a href="https://pancakeswap.finance/swap?outputCurrency=0x6D6bA21E4C4b29CA7Bfa1c344Ba1E35B8DaE7205" target="_blank" rel="noreferrer" className="btn btn-style-two">Pancakeswap</a>
                                 <a target="_blank" rel="noreferrer" href="/katanainuwhitepaper.pdf" className="btn btn-style-two">Whitepaper</a>
-                                <a href="/#" className="btn btn-style-two">Donate</a>
                             </div>
                             </div>
                         </div>
@@ -129,7 +129,7 @@ class MainSlider extends React.Component {
                                 PC-Game with an intergrated NFT Marketplace on layer 2 solution (Ethereum). All In-game skins will be an NFT.
                             </p>
                             <div className="slider-btn-wrap" data-animation="fadeInUp" data-delay=".8s">
-                                <a href="/#" className="btn btn-style-two">COMING SOON</a>
+                                <a href="https://app.uniswap.org/#/swap?inputCurrency=0x2e85ae1C47602f7927bCabc2Ff99C40aA222aE15" target="_blank" rel="noreferrer" className="btn btn-style-two">Uniswap</a>
                                 <a target="_blank" rel="noreferrer" href="/katanainuwhitepaper.pdf" className="btn btn-style-two">Whitepaper</a>
                             </div>
                             </div>
@@ -154,7 +154,7 @@ class MainSlider extends React.Component {
                                 PC-Game with an intergrated NFT Marketplace on layer 2 solution (Ethereum). All In-game skins will be an NFT.
                             </p>
                             <div className="slider-btn-wrap" data-animation="fadeInUp" data-delay=".8s">
-                                <a href="/#" className="btn btn-style-two">COMING SOON</a>
+                                <a href="https://app.uniswap.org/#/swap?inputCurrency=0x2e85ae1C47602f7927bCabc2Ff99C40aA222aE15" target="_blank" rel="noreferrer" className="btn btn-style-two">Uniswap</a>
                                 <a target="_blank" rel="noreferrer" href="/katanainuwhitepaper.pdf" className="btn btn-style-two">Whitepaper</a>
                             </div>
                             </div>
