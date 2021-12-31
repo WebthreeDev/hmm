@@ -241,3 +241,7 @@ span.social-item a {
 span.social-item svg {
     fill: #fff;
 }
+
+.row.justify-content-between.no-gutter .col-xl-2{
+    width: 19.6666%!important;
+}

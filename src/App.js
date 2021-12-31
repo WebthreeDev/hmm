@@ -17,6 +17,7 @@ import Trailer from './components/Trailer';
 import Advisors from './components/Advisors';
 import Brands from './components/Brands';
 import Links from './components/Links';
+import SingleBlog from './components/pages/SingleBlog';
 
 function App() {
   return (
@@ -44,6 +45,9 @@ function App() {
           </Route>
           <Route exact path="/links">
             <Links/>
+          </Route>
+          <Route path="/blog/:id" component={SingleBlog}>
+            <SingleBlog/>
           </Route>
         </Switch>
         <Footer/>

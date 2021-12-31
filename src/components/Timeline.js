@@ -23,18 +23,18 @@ class Timeline extends React.Component {
                     <div className="timeline-content">
                         <h3 className="title">Phase 1</h3>
                         <ul className="list">
-                        <li>Website Launch</li>
-                        <li>Social Media Launch</li>
+                        <li><i className="fas fa-check-circle" style={{ marginRight:'20px'}}></i>Website Launch</li>
+                        <li><i className="fas fa-check-circle" style={{ marginRight:'20px'}}></i>Social Media Launch</li>
                         <li>Audit Launch</li>
                         <li>NFT-Marketplace Development</li>
-                        <li>Game-Trailer development</li>
-                        <li>Whitepaper launch</li>
-                        <li> Coinmarketcap Listing</li>
-                        <li>Coingecko listing</li>
-                        <li>Seed Sale</li>
-                        <li>Private Sale 1</li>
-                        <li>Private Sale 2</li>
-                        <li> Public sale</li>
+                        <li> <i className="fas fa-check-circle" style={{ marginRight:'20px'}}></i> Game-Trailer development</li>
+                        <li> <i className="fas fa-check-circle" style={{ marginRight:'20px'}}></i> Whitepaper launch</li>
+                        <li> <i className="fas fa-check-circle" style={{ marginRight:'20px'}}></i>  Coinmarketcap Listing</li>
+                        <li> <i className="fas fa-check-circle" style={{ marginRight:'20px'}}></i> Coingecko listing</li>
+                        <li> <i className="fas fa-check-circle" style={{ marginRight:'20px'}}></i> Seed Sale</li>
+                        <li> <i className="fas fa-check-circle" style={{ marginRight:'20px'}}></i> Private Sale 1</li>
+                        <li> <i className="fas fa-check-circle" style={{ marginRight:'20px'}}></i> Private Sale 2</li>
+                        <li> <i className="fas fa-check-circle" style={{ marginRight:'20px'}}></i>  Public sale</li>
                         </ul>
                     </div>
                     </div>
@@ -43,15 +43,15 @@ class Timeline extends React.Component {
                     <div className="timeline-content">
                         <h3 className="title">Phase 2</h3>
                         <ul className="list">
-                        <li> Game-Development</li>
+                        <li><i className="fas fa-check-circle" style={{ marginRight:'20px'}}></i> Game-Development</li>
                         <li> Game Trailer</li>
                         <li>E-Commerce Launch</li>
-                        <li> Wallet development</li>
+                    
                         <li>Several Updates</li>
-                        <li>NFT & Exchange launch</li>
+                   
                         <li>Creating 3D NFT skins Charity Action</li>
                         <li>Game Blog Website</li>
-                        <li> Partnership Coop</li>
+                        <li> <i className="fas fa-check-circle" style={{ marginRight:'20px'}}></i> Partnership Coop</li>
                         <li>CEX listing</li>
                         </ul>
                     </div>

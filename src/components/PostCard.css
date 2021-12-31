@@ -1,32 +1,38 @@
-.post-card {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+.f-rc-post ul li {
+	display: flex;
+	overflow: hidden;
+	padding-bottom: 20px;
+	border-bottom: 1px dashed #464547;
+	margin-bottom: 20px;
+}
+.f-rc-post ul li:last-child {
+	padding-bottom: 0px;
+	border-bottom: none;
+	margin-bottom: 0px;
+}
+.f-rc-thumb {
+    margin-right: 20px;
+    margin-top: 8px;
+    width: 45%;
+}
+.f-rc-content span {
+	font-size: 14px;
+	color: #838383;
+	display: block;
+	margin-bottom: 3px;
+	font-weight: 400;
+}
+.f-rc-content h5 {
+	font-size: 14px;
+	font-weight: 500;
+	color: #aeaeae;
+	margin-bottom: 0;
+	line-height: 1.4;
+}
+.f-rc-thumb img {
+	border-radius: 3px;
 }
 
-.post-card {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.post-card {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.post-card .post-contents .post-date {
-    font-size: 10px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.post-card .post-contents .post-date i {
-    margin-right: 10px;
-}
-
-.post-contents {
-    margin-top: 15px;
+.f-rc-content {
+    width: 55%!important;
 }

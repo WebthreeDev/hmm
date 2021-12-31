@@ -1,0 +1,35 @@
+.blog-list-content h2 {
+	color: #062a4d;
+	font-size: 30px;
+	margin-bottom: 25px;
+}
+.blog-list-content p {
+	font-size: 15px;
+	line-height: 2;
+	font-weight: 500;
+	margin-bottom: 45px;
+}
+
+.blog-details-content p {
+	margin-bottom: 10px;
+}
+
+.blog-list-thumb img {
+	width: 100%;
+}
+
+.blog-details-date li {
+	display: inline-block;
+	margin-right: 15px;
+	color: #9a9999;
+	font-size: 13px;
+}
+.blog-details-date li:last-child {
+	margin-right: 0;
+}
+.blog-details-date li a {
+	color: #716f6f;
+}
+.blog-details-date li i {
+	margin-right: 5px;
+}

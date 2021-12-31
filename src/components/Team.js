@@ -40,7 +40,7 @@ class Team extends React.Component {
                         </div>
                         </a>
                     </div>
-                    <div className="col-lg-3 col-sm-6">
+                    {/* <div className="col-lg-3 col-sm-6">
                         <a target="_blank" rel="noreferrer" href='https://www.linkedin.com/in/jason-min-93a868207/'>
                         <div className="team-item text-center">
                         <div className="team-thumb">
@@ -49,6 +49,19 @@ class Team extends React.Component {
                         <div className="team-info">
                             <span>CTO &amp; SENIOR BLOCKCHAIN ENGINEER</span>
                             <h4 className="title">Jason Min</h4>
+                        </div>
+                        </div>
+                        </a>
+                    </div> */}
+                    <div className="col-lg-3 col-sm-6">
+                        <a target="_blank" rel="noreferrer" href='https://www.linkedin.com/in/behrsin/'>
+                        <div className="team-item text-center">
+                        <div className="team-thumb">
+                            <img src="assets/img/team/tim.jpg" alt="TEAM" />
+                        </div>
+                        <div className="team-info">
+                            <span>CTO</span>
+                            <h4 className="title">Tim B.</h4>
                         </div>
                         </div>
                         </a>

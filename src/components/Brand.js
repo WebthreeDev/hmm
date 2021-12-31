@@ -16,6 +16,11 @@ class Brand extends React.Component {
                                 </div>
                                 <div className="col-xl-3">
                                     <div className="brand-item">
+                                    <img src="assets/img/brand/coingecko.png" alt="BRAND" />
+                                    </div>
+                                </div>
+                                <div className="col-xl-3">
+                                    <div className="brand-item">
                                     <img src="assets/img/brand/cmc.png" alt="BRAND" />
                                     </div>
                                 </div>

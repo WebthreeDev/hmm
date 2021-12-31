@@ -8,7 +8,7 @@ class Brands extends React.Component {
                 <div className="container">
                     <div className="row brand-active align-items-center">
                         <div className='col-xl-12 col-md-12'>
-                            <img src='assets/img/brand/partnership4.jpg' alt='PARTNER'/>
+                            <img src='assets/img/brand/partners2.jpg' alt='PARTNER'/>
                         </div>
                         {/* <div className="col-xl-3">
                             <div className="brand-items mt-4">
