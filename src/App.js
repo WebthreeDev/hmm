@@ -18,6 +18,7 @@ import Advisors from './components/Advisors';
 import Brands from './components/Brands';
 import Links from './components/Links';
 import SingleBlog from './components/pages/SingleBlog';
+import News from './components/News';
 
 function App() {
   return (
@@ -38,6 +39,7 @@ function App() {
             <Timeline/>
             <Team/>
             <Advisors/>
+            <News/>
             <Contact/>
           </Route>
           <Route exact path="/faq">

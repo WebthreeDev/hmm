@@ -28,11 +28,11 @@ class SingleBlog extends React.Component {
                                     <div className="blog-details-date mb-10">
                                         <ul>
                                             <li><a href="/#"><i className="far fa-user"></i>Admin</a></li>
-                                            <li><i className="far fa-clock"></i> { singlePost.date } </li>
+                                            <li className='text-dark'><i className="far fa-clock"></i> { singlePost.date } </li>
                                         </ul>
                                     </div>
                                     <h2>{ singlePost.title }</h2>
-                                    <p>
+                                    <p className='text-dark'>
                                         { singlePost.description }
                                     </p>
                                 </div>

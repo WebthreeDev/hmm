@@ -11,17 +11,17 @@ class Brand extends React.Component {
                             <div className="row brand-active align-items-center justify-content-center">
                                 <div className="col-xl-3">
                                     <div className="brand-item">
-                                        <img src="assets/img/brand/certikwhite-1.png" alt="BRAND" />
+                                       <a href='https://www.certik.com/' target="_blank" rel="noreferrer"> <img src="assets/img/brand/certikwhite-1.png" alt="BRAND" /></a>
                                     </div>
                                 </div>
                                 <div className="col-xl-3">
                                     <div className="brand-item">
-                                    <img src="assets/img/brand/coingecko.png" alt="BRAND" />
+                                        <a href='https://www.coingecko.com/en' target="_blank" rel="noreferrer"><img src="assets/img/brand/coingecko.png" alt="BRAND" /></a>
                                     </div>
                                 </div>
                                 <div className="col-xl-3">
                                     <div className="brand-item">
-                                    <img src="assets/img/brand/cmc.png" alt="BRAND" />
+                                        <a href='https://coinmarketcap.com/' target="_blank" rel="noreferrer"><img src="assets/img/brand/cmc.png" alt="BRAND" /></a>
                                     </div>
                                 </div>
                             </div>

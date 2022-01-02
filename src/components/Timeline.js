@@ -33,7 +33,6 @@ class Timeline extends React.Component {
                         <li> <i className="fas fa-check-circle" style={{ marginRight:'20px'}}></i> Coingecko listing</li>
                         <li> <i className="fas fa-check-circle" style={{ marginRight:'20px'}}></i> Seed Sale</li>
                         <li> <i className="fas fa-check-circle" style={{ marginRight:'20px'}}></i> Private Sale 1</li>
-                        <li> <i className="fas fa-check-circle" style={{ marginRight:'20px'}}></i> Private Sale 2</li>
                         <li> <i className="fas fa-check-circle" style={{ marginRight:'20px'}}></i>  Public sale</li>
                         </ul>
                     </div>
