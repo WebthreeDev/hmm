@@ -33,3 +33,24 @@
 .blog-details-date li i {
 	margin-right: 5px;
 }
+
+@media screen and (max-width:768px) {
+	.blog-details-content p {
+		text-align: justify;
+	}
+
+	.blog-list-content h2 {
+		font-size: 25px;
+	}
+	
+}
+
+@media screen and (max-width:414px) {
+	.blog-details-content p {
+		text-align: justify;
+	}
+
+	.blog-list-content h2 {
+		font-size: 25px;
+	}
+}
