@@ -19,6 +19,7 @@ import Brands from './components/Brands';
 import Links from './components/Links';
 import SingleBlog from './components/pages/SingleBlog';
 import News from './components/News';
+import Ecosystem from './components/Ecosystem';
 
 function App() {
   return (
@@ -32,6 +33,7 @@ function App() {
             <CommingSoon/>
             <Mission/>
             <Value/>
+            <Ecosystem/>
             <Trailer/>
             <Gamers/>
             <Features/>
