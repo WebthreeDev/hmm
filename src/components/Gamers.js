@@ -10,7 +10,8 @@ class Gamers extends React.Component {
                     <div className="col-xl-6 col-lg-8">
                         <div className="section-title">
                         <h2 className="title">JUST FOR <span>GAMERS</span></h2>
-                        <p>Compete with 100 players on a remote island to be the winner. Play for NFTs and earn money while having fun playing the game. Our Tokenomics:</p>
+                        <p>Our wallets are clif locked for 2-8 month and linear vesting from 2-4 years.</p>
+                        <p><a href='https://katanainu.com/katanainutokenomics.pdf' target="_blank" rel="noreferrer">Check our tokenomics</a></p>
                         </div>
                     </div>
                     </div>
@@ -49,7 +50,8 @@ class Gamers extends React.Component {
                             <div className="content">
                                 <span className="title">31%</span>
                                 <label><pre>6%</pre> Marketing</label>
-                                <label><pre>25%</pre> Team/Develop.</label>
+                                <label><pre>10%</pre> Development</label>
+                                <label><pre>15%</pre> Team</label>
                             </div>
                             </li>
                             <li>

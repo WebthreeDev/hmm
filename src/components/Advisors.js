@@ -59,11 +59,11 @@ class Advisors extends React.Component {
                         <a target="_blank" rel="noreferrer" href='https://yeadh.com'>
                         <div className="team-item text-center">
                         <div className="team-thumb">
-                            <img src="assets/img/team/advisor_04.jpg" alt="ADVISOR" />
+                            <img src="assets/img/team/yeadh.jpg" alt="ADVISOR" />
                         </div>
                         <div className="team-info">
                             <span>WEB DEVELOPER</span>
-                            <h4 className="title">Yeadh</h4>
+                            <h4 className="title">Yeadh Hasan</h4>
                             <p>Web Developer</p>
                         </div>
                         </div>
