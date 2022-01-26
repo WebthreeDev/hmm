@@ -11,8 +11,9 @@ class Timeline extends React.Component {
                         <div className="section-title text-center mb-70">
                         <span className="sub-title">THE TIMELINE</span>
                         <h2 className="title">KATANA INU <span>ROADMAP</span></h2>
-                        <p className="timeline-desc">Our goal is to create a blockchain game ecosystem with real-world utility and value. With this ambitious project, we can reach the moon! Our team, contributors and investors have laid out key milestones that
-                            will put us on a track to success.</p>
+                        <p className="timeline-desc">Our Goal is to create a Blockchain Game Ecosystem with Real-World utility and value. With this
+ambitious Project, we can reach the Moon! Our Team, Contributors and Investors have laid out Key
+Milestones that will put us on a Track to Success.</p>
                         </div>
                     </div>
                     </div>

@@ -8,8 +8,8 @@ class FaqSection extends React.Component {
             data: [
                 { id: 1, title: "What is Katana Inu?", decscription: "A Deflationary Token on Ethereum with a PC-Game Interface and an Innovative NFT Ecosystem, with 4% Ethereum Reward to Holders"},
                 //{ id: 2, title: "When do we get our ETH allowances?", decscription: "The Ethereum rewards are automatically credited to the holder’s wallet after about 12 hours."},
-                { id: 3, title: "Who are the team members?", decscription: "A group from the Space who have come together – 15 team members from Europe, who have already accompanied many projects and is well-rehearsed."},
-                { id: 4, title: "Is there a buy and sell limit?", decscription: "After the launch: No, there is no sell or buy limit."},
+                { id: 3, title: "Whor are the Team Members?", decscription: "A Group from Space that has come together - 15 Team Members from all over Europe, that has already accompanied many Projects together and is well-rehearsed."},
+                { id: 4, title: "There is no Sell or Buy Limit", decscription: "Yes you can stak your $Kata soon. We are working on that Staking Mechanism and will soon provide Details"},
                 //{ id: 5, title: "How much should the slippage fee be when buying/selling?", decscription: "The slippage fee is 10%. If this one doesn’t work out, feel free to try 11-15% slippage."},
                 { id: 6, title: "Can we do Katana Staking?", decscription: "Yes. You can stake your $KATA soon. We are working on that staking mechanism and it will be announced soon."},
                 { id: 7, title: "Where can we see the whitepaper?", decscription: "https://katanainu.com/katanainuwhitepaper.pdf"}
@@ -27,7 +27,9 @@ class FaqSection extends React.Component {
                         <div className="section-title text-center">
                             <h2 className="title text-dark text-capitalize">Frequently Asked Questions</h2>
                         </div>
-                        <p className='text-dark text-center pb-5 mt-3'>Below we have provided our summarized frequently asked questions. If you have additional questions, concerns, improvement proposals or you would like to cooperate with us, please get in touch with us by using the contact form below.</p>
+                        <p className='text-dark text-center pb-5 mt-3'>Below we have provided our summarized frequently asked Questions. If you have additional
+Questions, Concerns, improvement Proposals or you would like to Cooperate with us, please get in
+touch with us by using the Contact Form below</p>
                     </div>
                 </div>
             </div>

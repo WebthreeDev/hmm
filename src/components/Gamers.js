@@ -9,9 +9,9 @@ class Gamers extends React.Component {
                     <div className="row chart-title-row">
                     <div className="col-xl-6 col-lg-8">
                         <div className="section-title">
-                        <h2 className="title">JUST FOR <span>GAMERS</span></h2>
-                        <p>Our wallets are clif locked for 2-8 month and linear vesting from 2-4 years.</p>
-                        <p><a href='https://katanainu.com/katanainutokenomics.pdf' target="_blank" rel="noreferrer">Check our tokenomics</a></p>
+                        <h2 className="title">FOR THE <span>GAMERS</span></h2>
+                        <p>Our Wallets are clif locked for 2-8 Month and linear Vesting from 2-4 Years.</p>
+                        <p><a href='https://katanainu.com/katanainutokenomics.pdf' target="_blank" rel="noreferrer">Check our Tokenomics</a></p>
                         </div>
                     </div>
                     </div>

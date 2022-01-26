@@ -441,4 +441,21 @@
 	.timeline-count {
 		left:0;
 	}
+
+    p.text-dark.token {
+        font-size: 10px;
+    }
+
+    .brand-item img {
+        display: inline-block;
+        width: 45%;
+    }
+
+    .section-title .title {
+        font-size: 25px;
+    }
+
+    .trailer-bottom-title {
+        font-size: 26px;
+    }
 }

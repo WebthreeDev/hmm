@@ -29,7 +29,6 @@ function App() {
           <Route exact path="/">
             <MainSlider/>
             <Brand/>
-            <CommingSoon/>
             <Mission/>
             <Value/>
             <Trailer/>
@@ -40,6 +39,7 @@ function App() {
             <Team/>
             <Advisors/>
             <News/>
+            <CommingSoon/>
             <Contact/>
           </Route>
           <Route exact path="/faq">

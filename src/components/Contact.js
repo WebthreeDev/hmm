@@ -1,6 +1,8 @@
 import React from 'react';
 import './Contact.css';
-import emailjs from 'emailjs-com';
+// import emailjs from 'emailjs-com';
+import axios from 'axios';
+
 
 class Contact extends React.Component {
     constructor(props){
@@ -21,13 +23,33 @@ class Contact extends React.Component {
         if( this.state.name === '' || this.state.email === '' || this.state.message === '' ){
             this.setState({ isEmpltyFields: true, isError: false, isMailSent: false });
         }else{
-            emailjs.sendForm('service_hj0fe0o', 'template_qh7q8hg',e.target, 'user_aDWf0Fxc1IFk7tWkcHrTO')
-            .then((result) => {
-                console.log(result.text);
+            // emailjs.sendForm('service_hj0fe0o', 'template_qh7q8hg',e.target, 'user_aDWf0Fxc1IFk7tWkcHrTO')
+            // .then((result) => {
+            //     console.log(result.text);
+            //     this.setState({isMailSent: true, isEmpltyFields: false, isError: false})
+            // }).catch((error) => {
+            //     console.log(error.text);
+            //     this.setState({isError: true, isMailSent: false, isEmpltyFields: false})
+            // });
+
+            const data = {
+                key: 'themebeyond1234..//',
+                fields: {
+                    name: this.state.name,
+                    email: this.state.email,
+                    message: this.state.message
+                }
+            }
+    
+    
+            axios.post('https://blog.katanainu.com/mailapi/api.php', JSON.stringify(data))
+            .then((response)=> {
+                console.log(response);
                 this.setState({isMailSent: true, isEmpltyFields: false, isError: false})
-            }).catch((error) => {
-                console.log(error.text);
-                this.setState({isError: true, isMailSent: false, isEmpltyFields: false})
+            })
+            .catch((error)=> {
+                console.log(error);
+                //this.setState({isError: true, isMailSent: false, isEmpltyFields: false})
             });
             e.target.reset();
         }

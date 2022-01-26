@@ -256,4 +256,8 @@ span.social-item svg {
 	.row.justify-content-between.no-gutter .col-xl-2{
         width: 96%!important;
     }
+
+    .newsletter-form div input {
+        width: 90%!important;
+    }
 }
