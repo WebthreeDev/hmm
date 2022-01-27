@@ -49,7 +49,8 @@ Milestones that will put us on a Track to Success.</p>
                     
                         <li>Several Updates</li>
                    
-                        <li>Creating 3D NFT skins Charity Action</li>
+                        <li>Creating 3D NFT skins</li>
+                        <li>Charity Action</li>
                         <li>Game Blog Website</li>
                         <li> <i className="fas fa-check-circle" style={{ marginRight:'20px'}}></i> Partnership Coop</li>
                         <li>CEX listing</li>
