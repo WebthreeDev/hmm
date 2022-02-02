@@ -12,7 +12,7 @@ class SocialLinks extends React.Component {
                 <li><a target="_blank" rel="noreferrer" href="https://twitter.com/katanainu"><i className="fab fa-twitter" /></a></li>
                 {/* <li><a target="_blank" rel="noreferrer" href="/#"><i className="fab fa-youtube" /></a></li> */}
                 <li><a target="_blank" rel="noreferrer" href="https://www.reddit.com/r/katanainu"><i className="fab fa-reddit" /></a></li>
-                
+                <li><a target="_blank" rel="noreferrer" href="https://www.discord.gg/katanainu"><i className="fab fa-discord"/></a></li>
             </ul>
         )
     }

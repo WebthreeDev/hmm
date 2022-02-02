@@ -1,11 +1,10 @@
 import React from 'react';
-import './Links.css';
-import MainSlider from './MainSlider';
+import MainSlider from '../components/MainSlider';
 
-class Links extends React.Component {
+export default class Links extends React.Component {
     render() {
         return (
-            <>
+            <main>
                 <MainSlider/>
                 <div className='links-area py-5'>
                     <div className='container'>
@@ -71,15 +70,19 @@ class Links extends React.Component {
                                                 Reddit
                                             </a>
                                         </li>
+                                        <li>
+                                            <a target="_blank" rel="noreferrer" href='https://www.discord.gg/katanainu'  style={{background : '#FF4301'}}>
+                                                <i className="fab fa-discord"></i>
+                                                Discord
+                                            </a>
+                                        </li>
                                     </ul>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </>
+            </main>
         )
     }
 }
-
-export default Links

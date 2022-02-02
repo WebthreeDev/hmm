@@ -3,7 +3,7 @@ import React from 'react';
 class Value extends React.Component {
     render() {
         return (
-            <section className="value-area">
+            <section className="value-area" style={{paddingTop: '100px'}}>
                 <div className="container">
                     <div className="row align-items-center">
                     <div className="col-lg-6">

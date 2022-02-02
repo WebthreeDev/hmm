@@ -2,6 +2,7 @@ import React from 'react';
 import './MainSlider.css';
 import Slider from 'react-slick';
 import { Stream } from '@cloudflare/stream-react';
+import { Modal } from 'react-bootstrap';
 
 function PrevArrow(props) {
     const { className, onClick } = props;
@@ -18,7 +19,66 @@ function NextArrow(props) {
 }
 
 class MainSlider extends React.Component {
-  
+
+    constructor(props){
+        super(props);
+        this.state = {
+            show: false,
+            modal: false
+        }
+    }
+
+    handleShow(){
+        this.setState({show: true})
+        window.dotq = window.dotq || [];
+        window.dotq.push({
+            'projectId': '10000',
+            'properties': {
+                'pixelId': '10176003',
+                'userEmail': '<email_address>',
+                'qstrings': {
+                    'et': 'custom',
+                    'ec':'token'
+                }
+            } 
+        });
+        console.log(window.dotq)
+    }
+
+    fireMintButton(){
+        window.dotq = window.dotq || [];
+        window.dotq.push({
+            'projectId': '10000',
+            'properties': {
+                'pixelId': '10176003',
+                'userEmail': '<email_address>',
+                'qstrings': {
+                    'et': 'custom',
+                    'ec':'mint'
+                }
+            }
+        });
+
+        console.log(window.dotq)
+    }
+
+    openModal(){
+        this.setState({modal:true})
+        window.dotq = window.dotq || [];
+        window.dotq.push({
+            'projectId': '10000',
+            'properties': {
+                'pixelId': '10176003',
+                'userEmail': '<email_address>',
+                'qstrings': {
+                    'et': 'custom',
+                    'ec':'discord'
+                }
+            } 
+        });
+        console.log(window.dotq)
+    }
+
     render() {
         const settings = {
             autoplay: false,
@@ -47,7 +107,7 @@ class MainSlider extends React.Component {
                     </div>
                     <div className="container">
                         <div className="row">
-                        <div className="col-xl-6 col-lg-8 col-md-11">
+                        <div className="col-xl-7 col-lg-8 col-md-11">
                             <div className="slider-content">
                             <h6 className="sub-title" data-animation="fadeInUp" data-delay=".2s">KATANA INU</h6>
                             <h2 className="title" data-animation="fadeInUp" data-delay=".4s">PC-Game with <span>NFT Ecosystem</span></h2>
@@ -56,10 +116,10 @@ NFT Marketplace.A Layer-2- Solution in the Ethereum Domain .All skins available 
 will be NFTs.</p>
                             <div className="slider-btn-wrap" data-animation="fadeInUp" data-delay=".8s">
                                 {/* <a href="https://app.uniswap.org/#/swap?inputCurrency=0x2e85ae1C47602f7927bCabc2Ff99C40aA222aE15" target="_blank" rel="noreferrer" className="btn btn-style-two">Uniswap</a> */}
-                                <a className="btn btn-style-two" href="mint.katanainu.com" target="_blank" rel="noreferrer">MINT NFT</a>
+                                <a className="btn btn-style-two" href="/#" onClick={() => this.fireMintButton() }>NFT Page</a>
                                 {/* <a href="https://pancakeswap.finance/swap?outputCurrency=0x6D6bA21E4C4b29CA7Bfa1c344Ba1E35B8DaE7205" target="_blank" rel="noreferrer" className="btn btn-style-two">Pancakeswap</a> */}
-                                <a className="btn btn-style-two" href="https://app.uniswap.org/#/swap?inputCurrency=0x2e85ae1C47602f7927bCabc2Ff99C40aA222aE15" target="_blank" rel="noreferrer">Buy Token</a>
-                                <a target="_blank" rel="noreferrer" href="/katanainuwhitepaper.pdf" className="btn btn-style-two">Whitepaper</a>
+                                <a className="btn btn-style-two" href="/#" onClick={() => this.handleShow() }>Buy Token</a>
+                                <a className="btn btn-style-two" href="/#" onClick={() => this.openModal() }>Discord/Telegram</a>
                             </div>
                             </div>
                         </div>
@@ -75,7 +135,7 @@ will be NFTs.</p>
                     </div>
                     <div className="container">
                         <div className="row">
-                        <div className="col-xl-6 col-lg-8 col-md-11">
+                        <div className="col-xl-7 col-lg-8 col-md-11">
                             <div className="slider-content">
                             <h6 className="sub-title" data-animation="fadeInUp" data-delay=".2s">KATANA INU</h6>
                             <h2 className="title" data-animation="fadeInUp" data-delay=".4s">PC-Game with <span>NFT Ecosystem</span></h2>
@@ -84,10 +144,10 @@ NFT Marketplace.A Layer-2- Solution in the Ethereum Domain .All skins available 
 will be NFTs.</p>
                             <div className="slider-btn-wrap" data-animation="fadeInUp" data-delay=".8s">
                                 {/* <a href="https://app.uniswap.org/#/swap?inputCurrency=0x2e85ae1C47602f7927bCabc2Ff99C40aA222aE15" target="_blank" rel="noreferrer" className="btn btn-style-two">Uniswap</a> */}
-                                <a className="btn btn-style-two" href="mint.katanainu.com" target="_blank" rel="noreferrer">MINT NFT</a>
+                                <a className="btn btn-style-two" href="/#" onClick={() => this.fireMintButton() }>NFT Page</a>
                                 {/* <a href="https://pancakeswap.finance/swap?outputCurrency=0x6D6bA21E4C4b29CA7Bfa1c344Ba1E35B8DaE7205" target="_blank" rel="noreferrer" className="btn btn-style-two">Pancakeswap</a> */}
-                                <a className="btn btn-style-two" href="https://app.uniswap.org/#/swap?inputCurrency=0x2e85ae1C47602f7927bCabc2Ff99C40aA222aE15" target="_blank" rel="noreferrer">Buy Token</a>
-                                <a target="_blank" rel="noreferrer" href="/katanainuwhitepaper.pdf" className="btn btn-style-two">Whitepaper</a>
+                                <a className="btn btn-style-two" href="/#" onClick={() => this.handleShow() }>Buy Token</a>
+                                <a className="btn btn-style-two" href="/#" onClick={() => this.openModal() }>Discord/Telegram</a>
                             </div>
                             </div>
                         </div>
@@ -103,19 +163,20 @@ will be NFTs.</p>
                     </div>
                     <div className="container">
                         <div className="row">
-                        <div className="col-xl-6 col-lg-8 col-md-11">
+                        <div className="col-xl-7 col-lg-8 col-md-11">
                             <div className="slider-content">
                             <h6 className="sub-title" data-animation="fadeInUp" data-delay=".2s">KATANA INU</h6>
                             <h2 className="title" data-animation="fadeInUp" data-delay=".4s">PC-Game with <span>NFT Ecosystem</span></h2>
-                            <p className="desc" data-animation="fadeInUp" data-delay=".6s">Katana Inu - We build a play2earn BattleRoyale NFT
-                                PC-Game with an intergrated NFT Marketplace on layer 2 solution (Ethereum). All In-game skins will be an NFT.
+                            <p className="desc" data-animation="fadeInUp" data-delay=".6s">Katana Inu - We have developed a Play2Earn BattleRoyal NFT PC Game with its own integrated
+NFT Marketplace.A Layer-2- Solution in the Ethereum Domain .All skins available in the Game
+will be NFTs.
                             </p>
                             <div className="slider-btn-wrap" data-animation="fadeInUp" data-delay=".8s">
                                 {/* <a href="https://app.uniswap.org/#/swap?inputCurrency=0x2e85ae1C47602f7927bCabc2Ff99C40aA222aE15" target="_blank" rel="noreferrer" className="btn btn-style-two">Uniswap</a> */}
-                                <a className="btn btn-style-two" href="mint.katanainu.com" target="_blank" rel="noreferrer">MINT NFT</a>
+                                <a className="btn btn-style-two" href="/#" onClick={() => this.fireMintButton() }>NFT Page</a>
                                 {/* <a href="https://pancakeswap.finance/swap?outputCurrency=0x6D6bA21E4C4b29CA7Bfa1c344Ba1E35B8DaE7205" target="_blank" rel="noreferrer" className="btn btn-style-two">Pancakeswap</a> */}
-                                <a className="btn btn-style-two" href="https://app.uniswap.org/#/swap?inputCurrency=0x2e85ae1C47602f7927bCabc2Ff99C40aA222aE15" target="_blank" rel="noreferrer">Buy Token</a>
-                                <a target="_blank" rel="noreferrer" href="/katanainuwhitepaper.pdf" className="btn btn-style-two">Whitepaper</a>
+                                <a className="btn btn-style-two" href="/#" onClick={() => this.handleShow() }>Buy Token</a>
+                                <a className="btn btn-style-two" href="/#" onClick={() => this.openModal() }>Discord/Telegram</a>
                             </div>
                             </div>
                         </div>
@@ -131,17 +192,19 @@ will be NFTs.</p>
                     </div>
                     <div className="container">
                         <div className="row">
-                        <div className="col-xl-6 col-lg-8 col-md-11">
+                        <div className="col-xl-7 col-lg-8 col-md-11">
                             <div className="slider-content">
                             <h6 className="sub-title" data-animation="fadeInUp" data-delay=".2s">KATANA INU</h6>
                             <h2 className="title" data-animation="fadeInUp" data-delay=".4s">PC-Game with <span>NFT Ecosystem</span></h2>
-                            <p className="desc" data-animation="fadeInUp" data-delay=".6s">Katana Inu - We build a play2earn BattleRoyale NFT
-                                PC-Game with an intergrated NFT Marketplace on layer 2 solution (Ethereum). All In-game skins will be an NFT.
+                            <p className="desc" data-animation="fadeInUp" data-delay=".6s">Katana Inu - We have developed a Play2Earn BattleRoyal NFT PC Game with its own integrated
+NFT Marketplace.A Layer-2- Solution in the Ethereum Domain .All skins available in the Game
+will be NFTs.
                             </p>
                             <div className="slider-btn-wrap" data-animation="fadeInUp" data-delay=".8s">
                                 {/* <a href="https://app.uniswap.org/#/swap?inputCurrency=0x2e85ae1C47602f7927bCabc2Ff99C40aA222aE15" target="_blank" rel="noreferrer" className="btn btn-style-two">Uniswap</a> */}
-                                <a className="btn btn-style-two" href="mint.katanainu.com" target="_blank" rel="noreferrer">MINT NFT</a>
-                                <a target="_blank" rel="noreferrer" href="/katanainuwhitepaper.pdf" className="btn btn-style-two">Whitepaper</a>
+                                <a className="btn btn-style-two" href="/#" onClick={() => this.fireMintButton() }>NFT Page</a>
+                                <a className="btn btn-style-two" href="/#" onClick={() => this.handleShow() }>Buy Token</a>
+                                <a className="btn btn-style-two" href="/#" onClick={() => this.openModal() }>Discord/Telegram</a>
                             </div>
                             </div>
                         </div>
@@ -157,17 +220,19 @@ will be NFTs.</p>
                     </div>
                     <div className="container">
                         <div className="row">
-                        <div className="col-xl-6 col-lg-7 col-md-11">
+                        <div className="col-xl-7 col-lg-7 col-md-11">
                             <div className="slider-content">
                             <h6 className="sub-title" data-animation="fadeInUp" data-delay=".2s">KATANA INU</h6>
                             <h2 className="title" data-animation="fadeInUp" data-delay=".4s">PC-Game with <span>NFT Ecosystem</span></h2>
-                            <p className="desc" data-animation="fadeInUp" data-delay=".6s">Katana Inu - We build a play2earn BattleRoyale NFT
-                                PC-Game with an intergrated NFT Marketplace on layer 2 solution (Ethereum). All In-game skins will be an NFT.
+                            <p className="desc" data-animation="fadeInUp" data-delay=".6s">Katana Inu - We have developed a Play2Earn BattleRoyal NFT PC Game with its own integrated
+NFT Marketplace.A Layer-2- Solution in the Ethereum Domain .All skins available in the Game
+will be NFTs.
                             </p>
                             <div className="slider-btn-wrap" data-animation="fadeInUp" data-delay=".8s">
                                 {/* <a href="https://app.uniswap.org/#/swap?inputCurrency=0x2e85ae1C47602f7927bCabc2Ff99C40aA222aE15" target="_blank" rel="noreferrer" className="btn btn-style-two">Uniswap</a> */}
-                                <a className="btn btn-style-two" href="mint.katanainu.com" target="_blank" rel="noreferrer">MINT NFT</a>
-                                <a target="_blank" rel="noreferrer" href="/katanainuwhitepaper.pdf" className="btn btn-style-two">Whitepaper</a>
+                                <a className="btn btn-style-two" href="/#" onClick={() => this.fireMintButton() }>NFT Page</a>
+                                <a className="btn btn-style-two" href="/#" onClick={() => this.handleShow() }>Buy Token</a>
+                                <a className="btn btn-style-two" href="/#" onClick={() => this.openModal() }>Discord/Telegram</a>
                             </div>
                             </div>
                         </div>
@@ -175,6 +240,41 @@ will be NFTs.</p>
                     </div>
                     </div>
                 </Slider>
+                <Modal 
+                show={this.state.show} 
+                onHide={()=>this.setState({show:false})}
+                aria-labelledby="contained-modal-title-vcenter"
+                centered>
+                    <Modal.Body className='p-5'>
+                            <p><a className='btn d-block btn-primary' href='https://app.uniswap.org/#/swap?inputCurrency=0x2e85ae1C47602f7927bCabc2Ff99C40aA222aE15' rel='noreferrer' target='_blank'>Uniswap</a></p>
+                            <p><a className='btn d-block' href='https://pancakeswap.finance/swap?outputCurrency=0x6D6bA21E4C4b29CA7Bfa1c344Ba1E35B8DaE7205' rel='noreferrer' target='_blank'>Pancake Swap</a></p>
+                            <p><a className='btn d-block btn-success' href='https://www.bitmart.com/trade/en?symbol=KATA_USDT' rel='noreferrer' target='_blank'>Bitmart</a></p>
+                            <p><a className='btn d-block btn-danger' href='https://www.hotbit.io/exchange?symbol=KATA_USDT' rel='noreferrer' target='_blank'>Hotbit</a></p>
+                            <p><a className='btn d-block btn-secondary' href='https://www.probit.com/app/exchange/KATA-USDT' rel='noreferrer' target='_blank'>Probit</a></p>
+                    </Modal.Body>
+                </Modal>
+
+                <Modal
+                show={this.state.modal} 
+                onHide={()=>this.setState({modal:false})}
+                aria-labelledby="contained-modal-title-vcenter"
+                centered>
+                    <Modal.Body className='p-5'>
+                            <p>
+                                <a className='btn d-block' target="_blank" rel="noreferrer" href='https://t.me/katanainu'  style={{background : '#0077b5'}}>
+                                    <i className="fab fa-telegram" style={{marginRight:'15px'}}></i>
+                                    <span>Telegram</span>
+                                </a>
+                            </p>
+                            <p>
+                                <a className='btn d-block' target="_blank" rel="noreferrer" href='https://www.discord.gg/katanainu'  style={{background : '#FF4301'}}>
+                                    <i className="fab fa-discord" style={{marginRight:'15px'}}></i>
+                                    <span>Discord</span>
+                                </a>
+                            </p>
+                    </Modal.Body>
+                </Modal>
+
             </section>
 
         )

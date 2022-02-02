@@ -41,7 +41,7 @@ class Advisors extends React.Component {
                         </div>
                         </a>
                     </div>
-                    <div className="col-xl-3 col-lg-4 col-sm-6">
+                    {/* <div className="col-xl-3 col-lg-4 col-sm-6">
                         <a target="_blank" rel="noreferrer" href='https://www.linkedin.com/in/ianscarffe/'>
                         <div className="team-item text-center">
                         <div className="team-thumb">
@@ -54,7 +54,7 @@ class Advisors extends React.Component {
                         </div>
                         </div>
                         </a>
-                    </div>
+                    </div> */}
                     <div className="col-xl-3 col-lg-4 col-sm-6">
                         <a target="_blank" rel="noreferrer" href='https://yeadh.com'>
                         <div className="team-item text-center">

@@ -80,7 +80,7 @@ class Header extends React.Component {
                                 <ul className="navigation">
                                 <li className="active"><a href="/#">Gaming</a></li>
                                 <li><a href="/#tokenomics">Tokenomics</a></li>
-                                <li><a href="/#mission">Why Katana Inu</a></li>
+                                <li><a target="_blank" rel="noreferrer" href="/katanainuwhitepaper.pdf">Whitepaper</a></li>
                                 <li><a href="/#roadmap">roadmap</a></li>
                                 <li><a href="/#contact">contact</a></li>
                                 <li>

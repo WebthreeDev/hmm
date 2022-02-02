@@ -88,12 +88,23 @@
     right: 2%;
 }
 
+.section-title .title {
+    font-size: 35px;
+}
+
+.mission-content p {
+    text-align: justify;
+}
+
+
+
 }
 
 
 
 /* Large devices (desktops, 992px and up) */
 @media (max-width: 991.98px) {
+
 .custom-container {
     max-width: 720px;
 }
@@ -457,5 +468,9 @@
 
     .trailer-bottom-title {
         font-size: 26px;
+    }
+
+    .header-social ul li + li {
+        margin-bottom: 10px;
     }
 }

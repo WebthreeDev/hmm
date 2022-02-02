@@ -27,7 +27,7 @@ Milestones that will put us on a Track to Success.</p>
                         <li><i className="fas fa-check-circle" style={{ marginRight:'20px'}}></i>Website Launch</li>
                         <li><i className="fas fa-check-circle" style={{ marginRight:'20px'}}></i>Social Media Launch</li>
                         <li>Audit Launch</li>
-                        <li>NFT-Marketplace Development</li>
+                        <li><i className="fas fa-check-circle" style={{ marginRight:'20px'}}></i>NFT-Marketplace Development</li>
                         <li> <i className="fas fa-check-circle" style={{ marginRight:'20px'}}></i> Game-Trailer development</li>
                         <li> <i className="fas fa-check-circle" style={{ marginRight:'20px'}}></i> Whitepaper launch</li>
                         <li> <i className="fas fa-check-circle" style={{ marginRight:'20px'}}></i>  Coinmarketcap Listing</li>
@@ -44,13 +44,13 @@ Milestones that will put us on a Track to Success.</p>
                         <h3 className="title">Phase 2</h3>
                         <ul className="list">
                         <li><i className="fas fa-check-circle" style={{ marginRight:'20px'}}></i> Game-Development</li>
-                        <li> Game Trailer</li>
+                        <li> <i className="fas fa-check-circle" style={{ marginRight:'20px'}}></i>Game Trailer</li>
                         <li>E-Commerce Launch</li>
                     
                         <li>Several Updates</li>
                    
-                        <li>Creating 3D NFT skins</li>
-                        <li>Charity Action</li>
+                        <li>2D NFT collections</li>
+                        <li><i className="fas fa-check-circle" style={{ marginRight:'20px'}}></i>Charity Action</li>
                         <li>Game Blog Website</li>
                         <li> <i className="fas fa-check-circle" style={{ marginRight:'20px'}}></i> Partnership Coop</li>
                         <li>CEX listing</li>
@@ -63,7 +63,7 @@ Milestones that will put us on a Track to Success.</p>
                         <h3 className="title">Phase 3</h3>
                         <ul className="list">
                         <li> More partnership Cooperation’s</li>
-                        <li>Charity Action</li>
+                        <li><i className="fas fa-check-circle" style={{ marginRight:'20px'}}></i>Charity Action</li>
                         <li>Katana Inu App launch</li>
                         <li> Expand Marketing Strategy</li>
                         <li>Create more 3D Game NFT’s</li>

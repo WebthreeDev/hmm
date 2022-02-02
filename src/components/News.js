@@ -25,11 +25,11 @@ class News extends React.Component {
                         </div>
                     </div>
 
-                    <div className='row'>
+                    <div className='row justify-content-center'>
                         {
                             blogs.map( post => {
                                 return (
-                                    <div className="col-lg-4 col-md-6" key={post.id}>
+                                    <div className="col-xl-4 col-md-6" key={post.id}>
                                         <div className="single-blog-post mb-30 wow fadeInUp" data-wow-delay="0.2s">
                                             <div className="b-post-thumb" style={{ backgroundImage: `url(${post.img})`, backgroundSize:'cover', backgroundPosition: 'center', height:'250px', overflow:'hidden'}}></div>
                                             <div className="blog-content">

@@ -4,6 +4,16 @@ import './Gamers.css';
 class Gamers extends React.Component {
     render() {
         return (
+            <>
+            <section className='katanainu-values py-5'>
+                <div className='container'>
+                    <div className='row'>
+                        <div className='col-md-12'>
+                            <h2 className="trailer-bottom-title"><span>KATANA INU</span> TOKEN WILL SHOOT TO VENUS</h2>
+                        </div>
+                    </div>
+                </div>
+            </section>
             <section className="chart-area chart-bg" id="chart">
                 <div className="container">
                     <div className="row chart-title-row">
@@ -74,7 +84,7 @@ class Gamers extends React.Component {
                 </div>
                 <div className="chart-bg-shape"><img src="assets/img/images/chart_shape.png" alt="TRAILER" /></div>
             </section>
-
+            </>
         )
     }
 }

@@ -245,6 +245,16 @@ span.social-item svg {
 .row.justify-content-between.no-gutter .col-xl-2{
     width: 19.6666%!important;
 }
+@media screen and (max-width: 1140px) {
+    .row.justify-content-between.no-gutter .col-xl-2{
+        width: 30%!important;
+    }
+
+    .newsletter-wrap {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
 
 @media screen and (max-width:768px) {
 	.row.justify-content-between.no-gutter .col-xl-2{
