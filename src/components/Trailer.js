@@ -37,7 +37,7 @@ class Trailer extends React.Component {
                     </div>
                     <div className="col-xl-4 col-lg-4 col-md-6 col-sm-12">
                         <div className="trailer-wrap">
-                            <img src="assets/img/images/trailer-03.jpg" alt="TRAILER" />
+                            <img src="assets/img/images/trailer04.png" alt="TRAILER" />
                             <a href="https://www.youtube.com/watch?v=XMTKGEVQJEc" className="popup-video"><img src="assets/img/icon/video_play_icon.png" alt="TRAILER" /></a>
                         </div>
                     </div>

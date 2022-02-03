@@ -13,6 +13,7 @@ import Trailer from '../components/Trailer';
 import Advisors from '../components/Advisors';
 import Brands from '../components/Brands';
 import News from '../components/News';
+import Nft from '../components/Nft';
 // import Ecosystem from '../components/Ecosystem';
 
 export default class Home extends React.Component{
@@ -22,6 +23,7 @@ export default class Home extends React.Component{
             <main>
                 <MainSlider/>
                 <Brand/>
+                <Nft/>
                 <Mission/>
                 <Trailer/>
                 <Value/>
