@@ -48,7 +48,7 @@ class Brands extends React.Component {
                             </a>
                         </div>
                         <div className="col-xl-3 col-lg-3 col-md-4 col-sm-12">
-                            <a href='https://twitter.com/AussieCapital_/status/1473691388575457289' target='_blank' rel='noreferrer'>
+                            <a href='/#' target='_blank' rel='noreferrer'>
                                 <div className="brand-items mt-4">
                                     <img src="assets/img/brand/5.jpg" alt="BRAND" className="img-fluid"/>
                                 </div>
@@ -164,7 +164,7 @@ class Brands extends React.Component {
                         </div>
 
                         <div className="col-xl-3 col-lg-3 col-md-4 col-sm-12">
-                            <a href='https://mobile.twitter.com/seedthrift/status/1471902193535963138' target='_blank' rel='noreferrer'>
+                            <a href='/#' target='_blank' rel='noreferrer'>
                                 <div className="brand-items mt-4">
                                     <img src="assets/img/brand/21.jpg" alt="BRAND" className="img-fluid"/>
                                 </div>
@@ -188,7 +188,7 @@ class Brands extends React.Component {
                         </div>
 
                         <div className="col-xl-3 col-lg-3 col-md-4 col-sm-12">
-                            <a href='https://mobile.twitter.com/seedthrift/status/1471902193535963138' target='_blank' rel='noreferrer'>
+                            <a href='/#' target='_blank' rel='noreferrer'>
                                 <div className="brand-items mt-4">
                                     <img src="assets/img/brand/24.jpg" alt="BRAND" className="img-fluid"/>
                                 </div>
