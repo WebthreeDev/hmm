@@ -29,3 +29,16 @@
 	font-weight: bolder;
 }
 
+.comming-soon-title{
+    font-size: 22px;
+}
+
+@media screen and (max-width:414px){
+    .comming-soon-title{
+        font-size: 15px;
+    }
+
+    a.nft-btn {
+        width: 75%!important;
+    }
+}

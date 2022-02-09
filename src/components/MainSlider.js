@@ -116,7 +116,7 @@ NFT Marketplace.A Layer-2- Solution in the Ethereum Domain .All skins available 
 will be NFTs.</p>
                             <div className="slider-btn-wrap" data-animation="fadeInUp" data-delay=".8s">
                                 {/* <a href="https://app.uniswap.org/#/swap?inputCurrency=0x2e85ae1C47602f7927bCabc2Ff99C40aA222aE15" target="_blank" rel="noreferrer" className="btn btn-style-two">Uniswap</a> */}
-                                <a className="btn btn-style-two" href="/#" onClick={() => this.fireMintButton() }>NFT Page</a>
+                                <a className="btn btn-style-two" href="https://nft.katanainu.com">NFT Page</a>
                                 {/* <a href="https://pancakeswap.finance/swap?outputCurrency=0x6D6bA21E4C4b29CA7Bfa1c344Ba1E35B8DaE7205" target="_blank" rel="noreferrer" className="btn btn-style-two">Pancakeswap</a> */}
                                 <a className="btn btn-style-two" href="/#" onClick={() => this.handleShow() }>Buy Token</a>
                                 <a className="btn btn-style-two" href="/#" onClick={() => this.openModal() }>Discord/Telegram</a>
@@ -144,7 +144,7 @@ NFT Marketplace.A Layer-2- Solution in the Ethereum Domain .All skins available 
 will be NFTs.</p>
                             <div className="slider-btn-wrap" data-animation="fadeInUp" data-delay=".8s">
                                 {/* <a href="https://app.uniswap.org/#/swap?inputCurrency=0x2e85ae1C47602f7927bCabc2Ff99C40aA222aE15" target="_blank" rel="noreferrer" className="btn btn-style-two">Uniswap</a> */}
-                                <a className="btn btn-style-two" href="/#" onClick={() => this.fireMintButton() }>NFT Page</a>
+                                <a className="btn btn-style-two" href="https://nft.katanainu.com">NFT Page</a>
                                 {/* <a href="https://pancakeswap.finance/swap?outputCurrency=0x6D6bA21E4C4b29CA7Bfa1c344Ba1E35B8DaE7205" target="_blank" rel="noreferrer" className="btn btn-style-two">Pancakeswap</a> */}
                                 <a className="btn btn-style-two" href="/#" onClick={() => this.handleShow() }>Buy Token</a>
                                 <a className="btn btn-style-two" href="/#" onClick={() => this.openModal() }>Discord/Telegram</a>
@@ -173,7 +173,7 @@ will be NFTs.
                             </p>
                             <div className="slider-btn-wrap" data-animation="fadeInUp" data-delay=".8s">
                                 {/* <a href="https://app.uniswap.org/#/swap?inputCurrency=0x2e85ae1C47602f7927bCabc2Ff99C40aA222aE15" target="_blank" rel="noreferrer" className="btn btn-style-two">Uniswap</a> */}
-                                <a className="btn btn-style-two" href="/#" onClick={() => this.fireMintButton() }>NFT Page</a>
+                                <a className="btn btn-style-two" href="https://nft.katanainu.com">NFT Page</a>
                                 {/* <a href="https://pancakeswap.finance/swap?outputCurrency=0x6D6bA21E4C4b29CA7Bfa1c344Ba1E35B8DaE7205" target="_blank" rel="noreferrer" className="btn btn-style-two">Pancakeswap</a> */}
                                 <a className="btn btn-style-two" href="/#" onClick={() => this.handleShow() }>Buy Token</a>
                                 <a className="btn btn-style-two" href="/#" onClick={() => this.openModal() }>Discord/Telegram</a>
@@ -202,7 +202,7 @@ will be NFTs.
                             </p>
                             <div className="slider-btn-wrap" data-animation="fadeInUp" data-delay=".8s">
                                 {/* <a href="https://app.uniswap.org/#/swap?inputCurrency=0x2e85ae1C47602f7927bCabc2Ff99C40aA222aE15" target="_blank" rel="noreferrer" className="btn btn-style-two">Uniswap</a> */}
-                                <a className="btn btn-style-two" href="/#" onClick={() => this.fireMintButton() }>NFT Page</a>
+                                <a className="btn btn-style-two" href="https://nft.katanainu.com">NFT Page</a>
                                 <a className="btn btn-style-two" href="/#" onClick={() => this.handleShow() }>Buy Token</a>
                                 <a className="btn btn-style-two" href="/#" onClick={() => this.openModal() }>Discord/Telegram</a>
                             </div>
@@ -230,7 +230,7 @@ will be NFTs.
                             </p>
                             <div className="slider-btn-wrap" data-animation="fadeInUp" data-delay=".8s">
                                 {/* <a href="https://app.uniswap.org/#/swap?inputCurrency=0x2e85ae1C47602f7927bCabc2Ff99C40aA222aE15" target="_blank" rel="noreferrer" className="btn btn-style-two">Uniswap</a> */}
-                                <a className="btn btn-style-two" href="/#" onClick={() => this.fireMintButton() }>NFT Page</a>
+                                <a className="btn btn-style-two" href="https://nft.katanainu.com">NFT Page</a>
                                 <a className="btn btn-style-two" href="/#" onClick={() => this.handleShow() }>Buy Token</a>
                                 <a className="btn btn-style-two" href="/#" onClick={() => this.openModal() }>Discord/Telegram</a>
                             </div>

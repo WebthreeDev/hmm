@@ -54,7 +54,7 @@ class Footer extends React.Component {
                             <li><a target="_blank" rel="noreferrer" href="https://app.uniswap.org/#/swap?inputCurrency=0x2e85ae1C47602f7927bCabc2Ff99C40aA222aE15">Uniswap</a></li>
                             <li><a target="_blank" rel="noreferrer" href="/katanainuwhitepaper.pdf">Whitepaper</a></li>
                             <li><a target="_blank" rel="noreferrer" href="/roadmap.png">Roadmap</a></li>
-                            <li><a target="_blank" rel="noreferrer" href="/katanainutokenomics.pdf">Tokenomics</a></li>
+                            <li><a href="#tokenomics">Tokenomics</a></li>
                             <li><a target="_blank" rel="noreferrer" href="/#">FAQ</a></li>
                         </ul>
                         </div>

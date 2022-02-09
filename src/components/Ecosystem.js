@@ -19,7 +19,7 @@ class Ecosystem extends React.Component {
                             <div className="mission-content">
                                 <p>Katana Inu is a high-graphics PC play-to-earn game with different attractive mechanics that will keep players glued to their computer screens. Our game will be an off-chain connected to our own NFT Marketplace on layer 2 solution with low gas fees. The Katana Inu game exemplifies real play-to-earn concepts; NFTs can be airdropped at random for players during gameplay while the best players earn $KATA rewards.
                                     <br />
-                                    Casual players can hop into the open-world Battle Royale mode, while hardcore gamers can battle it out in competitive 5v5 matches. It does matter who you are; the Katana Inu metaverse has something for you. </p>
+                                    Casual players can hop into the open-world battle royale mode, while hardcore gamers can battle it out in competitive 5v5 matches. It does matter who you are; the Katana Inu metaverse has something for you. </p>
                             </div>
                         </div>
                     </div>
