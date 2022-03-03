@@ -1,7 +1,7 @@
 import React from 'react';
 import MainSlider from '../components/MainSlider';
 import Brand from '../components/Brand';
-import CommingSoon from '../components/CommingSoon';
+import PancakeUniswap from '../components/PancakeUniswap';
 import Mission from '../components/Mission';
 import Gamers from '../components/Gamers';
 import Features from '../components/Features';
@@ -17,6 +17,9 @@ import Nft from '../components/Nft';
 // import Ecosystem from '../components/Ecosystem';
 
 export default class Home extends React.Component{
+    componentDidMount(){
+        window.scrollTo(0,0);
+    }
 
     render(){
         return (
@@ -35,7 +38,7 @@ export default class Home extends React.Component{
                 <Team/>
                 <Advisors/>
                 <News/>
-                <CommingSoon/>
+                <PancakeUniswap/>
                 <Contact/>
             </main>
         )

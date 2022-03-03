@@ -1,6 +1,6 @@
 import React from 'react';
 
-class CommingSoon extends React.Component {
+class PancakeUniswap extends React.Component {
     constructor(props){
         super(props);
         this.state = {
@@ -43,10 +43,12 @@ class CommingSoon extends React.Component {
                             </div>
                             <p className='text-center text-dark'>The best way to purchase the Katana Token.
 Please make sure, you Copy and Paste the correct Contract, below when adding the Token to your
-ETH Wallet or BSC Wallet. When you purchasing Katana on Uniswap or Pancake Swap</p>
+ETH Wallet or BSC Wallet. When you purchasing Katana on Uniswap or Pancake Swap.</p>
                         </div>
-                        <div className="col-12 text-center">
-                            <p className='text-dark' style={{ fontSize: '18px', fontWeight: 800}}><a href='https://app.uniswap.org/#/swap?inputCurrency=0x2e85ae1C47602f7927bCabc2Ff99C40aA222aE15' target='_blank' rel='noreferrer'>Uniswap</a> </p>
+                        <div className="col-lg-6 col-sm-12 text-center">
+                            <p className='text-dark' style={{ fontSize: '18px', fontWeight: 800}}><a href='https://app.uniswap.org/#/swap?inputCurrency=ETH&outputCurrency=0x2e85ae1C47602f7927bCabc2Ff99C40aA222aE15&chain=mainnet' target='_blank' rel='noreferrer'>Uniswap</a> </p>
+                            <p className='text-dark'>Don't send it to this adress.
+Just copy paste it and Insert into pancakeswap or uniswap. Otherwise you will loose your tokens.</p>
                             <p className='text-dark token'><strong>{ this.state.uniswap }</strong><i title="Click to copy" style={{ cursor:'pointer', marginLeft:'20px', display: 'inline-block'}} className="far fa-copy" onClick={ () => this.copyToClipboard(this.state.uniswap, 'uniswap') }></i><span style={ {display:'inline-block',marginLeft:'20px'}}>{ this.state.copySuccessUniswap }</span></p>
                             <p className='text-dark' style={{ fontSize: '18px', fontWeight: 800}}><a href='https://pancakeswap.finance/swap?outputCurrency=0x6D6bA21E4C4b29CA7Bfa1c344Ba1E35B8DaE7205' target='_blank' rel='noreferrer'>Pancake Swap</a> </p>
                             <p className='text-dark token'><strong>{ this.state.pancake }</strong><i title="Click to copy" style={{ cursor:'pointer', marginLeft:'20px', display: 'inline-block'}} className="far fa-copy" onClick={ () => this.copyToClipboard(this.state.pancake, 'pancake') }></i><span style={ {display:'inline-block',marginLeft:'20px'}}>{ this.state.copySuccessPancake }</span></p>
@@ -64,4 +66,4 @@ ETH Wallet or BSC Wallet. When you purchasing Katana on Uniswap or Pancake Swap<
     }
 }
 
-export default CommingSoon
+export default PancakeUniswap

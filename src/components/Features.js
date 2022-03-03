@@ -7,6 +7,25 @@ class Features extends React.Component {
             <section className="features-area" id="mission">
                 <div className="container">
                     <div className="row justify-content-center">
+                        <div className="col-md-7">
+                            <div className="section-title text-center">
+                                <h2 className="title">You want to stake your <span>$KATA</span> Token?</h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div className='row mt-4'>
+                        <div className='col-md-6 text-center m-auto'>
+                            <p className='text-dark'>You can stake on Binance Smart chain and Ethereum Network.</p>
+                            <a 
+                            className='btn btn-style-two' 
+                            href='https://staking.katanainu.com/' 
+                            target="_blank" 
+                            rel='noreferrer'>
+                                Go Here
+                            </a>
+                        </div>
+                    </div>
+                    <div className="row justify-content-center mt-5 pt-5">
                     <div className="col-xl-7 col-lg-9">
                         <div className="section-title text-center mb-50">
                         <span className="sub-title">OUR FEATURES</span>

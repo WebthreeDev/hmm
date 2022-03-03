@@ -21,7 +21,7 @@ export class Nft extends Component {
     
     render() {
         return (
-            <section className="mission-area" id="tokenomics">
+            <section className="mission-area">
                 <div className="container">
                 <div className="row align-items-center">
                     <div className="col-lg-6 order-0 order-lg-2">
@@ -32,7 +32,7 @@ export class Nft extends Component {
                     <div className="col-lg-6">
                     <div className="section-title mb-20 mint_title mt-30 text-center">
                         <h2 className="title"><span>Katana Inu</span> NFT-Gaming</h2>
-                        <p className='text-white mt-3 comming-soon-title'>COMMING SOON JOIN DISCORD FOR WHITELIST</p>
+                        <p className='text-white mt-3 comming-soon-title'>COMING SOON JOIN DISCORD FOR WHITELIST</p>
                     </div>
                     <div className="mission-content text-center c_buy_d">
                         <p>You can purchase our Katana Inu Token on <span>Uniswap</span> and <span>exchanges</span>. Check <a target="_balnk" rel="noreferrer" href="https://coinmarketcap.com/de/currencies/katana-inu/ ">coinmarketcap</a>.

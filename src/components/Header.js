@@ -79,20 +79,20 @@ class Header extends React.Component {
                             <div className="navbar-wrap main-menu d-none d-lg-flex">
                                 <ul className="navigation">
                                 <li className="active"><a href="/#">Gaming</a></li>
-                                <li><a href="/#tokenomics">Tokenomics</a></li>
+                                <li><a target="_blank" rel="noreferrer" href="/katanainutokenomics.pdf">Tokenomics</a></li>
                                 <li><a target="_blank" rel="noreferrer" href="/katanainuwhitepaper.pdf">Whitepaper</a></li>
-                                <li><a href="/#roadmap">roadmap</a></li>
+                                <li><a href="/#roadmap">Roadmap</a></li>
                                 <li><a href="/#contact">contact</a></li>
                                 <li>
                                     <Link to="/faq">FAQ</Link>
                                 </li>
                                 </ul>
                             </div>
-                            <div className="header-action d-none d-sm-block">
+                            {/* <div className="header-action d-none d-sm-block">
                                 <ul>
                                 <li className="header-search"><a href="/#"><i className="fas fa-search" /></a></li>
                                 </ul>
-                            </div>
+                            </div> */}
                             </nav>
                         </div>
                         {/* Mobile Menu  */}
@@ -123,7 +123,7 @@ class Header extends React.Component {
                     </div>
                 </div>
                 {/* header-search */}
-                <div className="search-popup-wrap" tabIndex={-1} role="dialog" aria-hidden="true">
+                {/* <div className="search-popup-wrap" tabIndex={-1} role="dialog" aria-hidden="true">
                     <div className="search-close"><i className="fas fa-times" /></div>
                     <div className="search-wrap text-center">
                     <div className="container">
@@ -140,7 +140,7 @@ class Header extends React.Component {
                         </div>
                     </div>
                     </div>
-                </div>
+                </div> */}
             </header>
 
         );

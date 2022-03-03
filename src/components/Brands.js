@@ -12,6 +12,7 @@ class Brands extends React.Component {
                                 <a href='https://chainbroker.io/projects/katana-inu/' target='_blank' rel='noreferrer'>
                                     <h2 className="title text-dark"><span>Partners</span> & Packers</h2>
                                 </a>
+                                <p className='text-center text-dark my-3'>"Please note that some of the partners/backers shows social support by retweeting Katana Inu tweet"</p>
                             </div>
                         </div>
                     </div>

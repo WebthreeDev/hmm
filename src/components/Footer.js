@@ -2,6 +2,7 @@ import React from 'react';
 import { Link  } from 'react-router-dom';
 import SocialLinks from './SocialLinks';
 import PostCard from './PostCard';
+import Newsletter from './Newsletter';
 import './Footer.css';
 
 class Footer extends React.Component {
@@ -13,20 +14,7 @@ class Footer extends React.Component {
                 <div className="container">
                     <div className="row">
                     <div className="col-12">
-                        <div className="newsletter-wrap">
-                        <div className="section-title newsletter-title">
-                            <h2 className="title">Our <span>Newsletter</span></h2>
-                        </div>
-                        <div className="newsletter-form">
-                            <form action="#">
-                            <div className="newsletter-form-grp">
-                                <i className="far fa-envelope" />
-                                <input type="email" placeholder="Enter your email..." />
-                            </div>
-                            <button>SUBSCRIBE <i className="fas fa-paper-plane" /></button>
-                            </form>
-                        </div>
-                        </div>
+                        <Newsletter/>
                     </div>
                     </div>
                 </div>
@@ -51,11 +39,12 @@ class Footer extends React.Component {
                         <div className="fw-link">
                         <ul>
                             <li><a target="_blank" rel="noreferrer" href="https://pancakeswap.finance/swap?outputCurrency=0x6D6bA21E4C4b29CA7Bfa1c344Ba1E35B8DaE7205">Pancakeswap</a></li>
-                            <li><a target="_blank" rel="noreferrer" href="https://app.uniswap.org/#/swap?inputCurrency=0x2e85ae1C47602f7927bCabc2Ff99C40aA222aE15">Uniswap</a></li>
+                            <li><a target="_blank" rel="noreferrer" href="https://app.uniswap.org/#/swap?inputCurrency=ETH&outputCurrency=0x2e85ae1C47602f7927bCabc2Ff99C40aA222aE15&chain=mainnet">Uniswap</a></li>
                             <li><a target="_blank" rel="noreferrer" href="/katanainuwhitepaper.pdf">Whitepaper</a></li>
                             <li><a target="_blank" rel="noreferrer" href="/roadmap.png">Roadmap</a></li>
-                            <li><a href="#tokenomics">Tokenomics</a></li>
-                            <li><a target="_blank" rel="noreferrer" href="/#">FAQ</a></li>
+                            <li><a target="_blank" rel="noreferrer" href="/katanainutokenomics.pdf">Tokenomics</a></li>
+                            <li><a target="_blank" rel="noreferrer" href="https://raritysniper.com/">NFT Rarity</a></li>
+                            <li><Link to='/faq'>Faq</Link></li>
                         </ul>
                         </div>
                     </div>
@@ -68,10 +57,12 @@ class Footer extends React.Component {
                         <div className="fw-link">
                         <ul>
                             <li><a target="_blank" rel="noreferrer" href="/#contact">Contact Us</a></li>
-                            <li><a target="_blank" rel="noreferrer" href="https://discord.gg/sruA5AZPAS">Discord</a></li>
-                            <li><a target="_blank" rel="noreferrer" href="https://medium.com/@katanainu/katana-inu-a-great-play2earn-battle-royale-pc-game-with-nft-marketplace-on-layer-2-a56f9bbcce79">Medium</a></li>
+                            <li><a target="_blank" rel="noreferrer" href="https://www.discord.gg/katanainu">Discord</a></li>
+                            <li><a target="_blank" rel="noreferrer" href="https://medium.com/@katanainu">Medium</a></li>
                             <li><a target="_blank" rel="noreferrer" href="https://www.reddit.com/r/katanainu">Reddit</a></li>
                             <li><a target="_blank" rel="noreferrer" href="https://chainvisiongames.com">ChainVision Games</a></li>
+                            <li><a target="_blank" rel="noreferrer" href="https://claim.katanainu.com">Claim your token</a></li>
+                            <li><a target="_blank" rel="noreferrer" href="https://staking.katanainu.com">Stake your $KATA</a></li>
                         </ul>
                         </div>
                     </div>
