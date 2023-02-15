@@ -48,7 +48,7 @@ class Header extends React.Component {
                     <div className="row align-items-center">
                         {/* <div className="col-lg-6 d-none d-lg-block">
                         <div className="header-top-offer">
-                            <p>SALE COMING SOON - We are still working on Katana Inu</p>
+                            <p>SALE COMING SOON - We are still working on Samurai Inu</p>
                         </div>
                         </div> */}
                         <div className="col-lg-6 m-auto">
@@ -74,13 +74,13 @@ class Header extends React.Component {
                         <div className="menu-wrap">
                             <nav className="menu-nav">
                             <div className="logo">
-                                <Link to="/"><img src="assets/img/logo/logo.png" alt="KATANA INU" /></Link>
+                                <Link to="/"><img src="assets/img/logo/logo.png" alt="Samurai Inu" /></Link>
                             </div>
                             <div className="navbar-wrap main-menu d-none d-lg-flex">
                                 <ul className="navigation">
                                 <li className="active"><a href="/#">Gaming</a></li>
-                                <li><a target="_blank" rel="noreferrer" href="/katanainutokenomics.pdf">Tokenomics</a></li>
-                                <li><a target="_blank" rel="noreferrer" href="/katanainuwhitepaper.pdf">Whitepaper</a></li>
+                                <li><a target="_blank" rel="noreferrer" href="/SamuraiInuERCtokenomics.pdf">Tokenomics</a></li>
+                                <li><a target="_blank" rel="noreferrer" href="/SamuraiInuERCwhitepaper.pdf">Whitepaper</a></li>
                                 <li><a href="/#roadmap">Roadmap</a></li>
                                 <li><a href="/#contact">contact</a></li>
                                 <li>
@@ -99,7 +99,7 @@ class Header extends React.Component {
                         <div className="mobile-menu">
                             <nav className="menu-box">
                             <div className="close-btn"><i className="fas fa-times" /></div>
-                            <div className="nav-logo"><Link to="/"><img src="assets/img/logo/logo.png" alt="KATANA INU" title="KATANA INU"/></Link>
+                            <div className="nav-logo"><Link to="/"><img src="assets/img/logo/logo.png" alt="Samurai Inu" title="Samurai Inu"/></Link>
                             </div>
                             <div className="menu-outer">
                                 {/*Here Menu Will Come Automatically Via Javascript / Same Menu as in Header*/}

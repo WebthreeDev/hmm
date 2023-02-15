@@ -24,7 +24,7 @@ class Footer extends React.Component {
                     <div className="col-xl-2 col-md-6">
                     <div className="footer-widget mb-50">
                         <div className="footer-logo mb-35">
-                            <Link to="/"><img src="assets/img/logo/logo.png" alt="KATANA INU"/></Link>
+                            <Link to="/"><img src="assets/img/logo/logo.png" alt="Samurai Inu"/></Link>
                         </div>
                         <div className="footer-text">
                         <p>See you on the moon.</p>
@@ -39,10 +39,10 @@ class Footer extends React.Component {
                         <div className="fw-link">
                         <ul>
                             <li><a target="_blank" rel="noreferrer" href="https://pancakeswap.finance/swap?outputCurrency=0x6D6bA21E4C4b29CA7Bfa1c344Ba1E35B8DaE7205">Pancakeswap</a></li>
-                            <li><a target="_blank" rel="noreferrer" href="https://app.uniswap.org/#/swap?inputCurrency=ETH&outputCurrency=0x2e85ae1C47602f7927bCabc2Ff99C40aA222aE15&chain=mainnet">Uniswap</a></li>
-                            <li><a target="_blank" rel="noreferrer" href="/katanainuwhitepaper.pdf">Whitepaper</a></li>
+                            <li><a target="_blank" rel="noreferrer" href="https://app.uniswap.org/#/swap?inputCurrency=ETH&outputCurrency=0x000&chain=mainnet">Uniswap</a></li>
+                            <li><a target="_blank" rel="noreferrer" href="/SamuraiInuERCwhitepaper.pdf">Whitepaper</a></li>
                             <li><a target="_blank" rel="noreferrer" href="/roadmap.png">Roadmap</a></li>
-                            <li><a target="_blank" rel="noreferrer" href="/katanainutokenomics.pdf">Tokenomics</a></li>
+                            <li><a target="_blank" rel="noreferrer" href="/SamuraiInuERCtokenomics.pdf">Tokenomics</a></li>
                             <li><a target="_blank" rel="noreferrer" href="https://raritysniper.com/">NFT Rarity</a></li>
                             <li><Link to='/faq'>Faq</Link></li>
                         </ul>
@@ -57,12 +57,12 @@ class Footer extends React.Component {
                         <div className="fw-link">
                         <ul>
                             <li><a target="_blank" rel="noreferrer" href="/#contact">Contact Us</a></li>
-                            <li><a target="_blank" rel="noreferrer" href="https://www.discord.gg/katanainu">Discord</a></li>
-                            <li><a target="_blank" rel="noreferrer" href="https://medium.com/@katanainu">Medium</a></li>
-                            <li><a target="_blank" rel="noreferrer" href="https://www.reddit.com/r/katanainu">Reddit</a></li>
+                            <li><a target="_blank" rel="noreferrer" href="https://www.discord.gg/SamuraiInuERC">Discord</a></li>
+                            <li><a target="_blank" rel="noreferrer" href="https://medium.com/@SamuraiInuERC">Medium</a></li>
+                            <li><a target="_blank" rel="noreferrer" href="https://www.reddit.com/r/SamuraiInuERC">Reddit</a></li>
                             <li><a target="_blank" rel="noreferrer" href="https://chainvisiongames.com">ChainVision Games</a></li>
-                            <li><a target="_blank" rel="noreferrer" href="https://claim.katanainu.com">Claim your token</a></li>
-                            <li><a target="_blank" rel="noreferrer" href="https://staking.katanainu.com">Stake your $KATA</a></li>
+                            <li><a target="_blank" rel="noreferrer" href="https://claim.SamuraiInuERC.com">Claim your token</a></li>
+                            <li><a target="_blank" rel="noreferrer" href="https://staking.SamuraiInuERC.com">Stake your $Samurai</a></li>
                         </ul>
                         </div>
                     </div>

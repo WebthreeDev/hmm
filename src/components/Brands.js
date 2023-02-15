@@ -9,10 +9,10 @@ class Brands extends React.Component {
                     <div className='row'>
                         <div className='col-md-12'>
                             <div className="section-title mb-50 text-center">
-                                <a href='https://chainbroker.io/projects/katana-inu/' target='_blank' rel='noreferrer'>
+                                <a href='https://chainbroker.io/projects/Samuraiinu/' target='_blank' rel='noreferrer'>
                                     <h2 className="title text-dark"><span>Partners</span> & Packers</h2>
                                 </a>
-                                <p className='text-center text-dark my-3'>"Please note that some of the partners/backers shows social support by retweeting Katana Inu tweet"</p>
+                                <p className='text-center text-dark my-3'>"Please note that some of the partners/backers shows social support by retweeting Samurai Inu tweet"</p>
                             </div>
                         </div>
                     </div>
@@ -28,14 +28,14 @@ class Brands extends React.Component {
                             </a>
                         </div>
                         <div className="col-xl-3 col-lg-3 col-md-4 col-sm-12">
-                            <a href='https://twitter.com/katanainu/status/1470457827021963283' target='_blank' rel='noreferrer'>
+                            <a href='https://twitter.com/SamuraiInuERC/status/1470457827021963283' target='_blank' rel='noreferrer'>
                                 <div className="brand-items mt-4">
                                     <img src="assets/img/brand/3.jpg" alt="BRAND" className="img-fluid"/>
                                 </div>
                             </a>
                         </div>
                         <div className="col-xl-3 col-lg-3 col-md-4 col-sm-12">
-                            <a href='https://twitter.com/katanainu/status/1470803278644527113' target='_blank' rel='noreferrer'>
+                            <a href='https://twitter.com/SamuraiInuERC/status/1470803278644527113' target='_blank' rel='noreferrer'>
                                 <div className="brand-items mt-4">
                                     <img src="assets/img/brand/4.jpg" alt="BRAND" className="img-fluid"/>
                                 </div>
@@ -63,7 +63,7 @@ class Brands extends React.Component {
                             </a>
                         </div>
                         <div className="col-xl-3 col-lg-3 col-md-4 col-sm-12">
-                            <a href='https://bcainvestments.com/blog/partnership-katana-inu/' target='_blank' rel='noreferrer'>
+                            <a href='https://bcainvestments.com/blog/partnership-Samuraiinu/' target='_blank' rel='noreferrer'>
                                 <div className="brand-items mt-4">
                                     <img src="assets/img/brand/7.jpg" alt="BRAND" className="img-fluid"/>
                                 </div>

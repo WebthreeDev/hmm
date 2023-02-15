@@ -10,7 +10,7 @@ class Timeline extends React.Component {
                     <div className="col-xl-7 col-lg-9">
                         <div className="section-title text-center mb-70">
                         <span className="sub-title">THE TIMELINE</span>
-                        <h2 className="title">KATANA INU <span>ROADMAP</span></h2>
+                        <h2 className="title">Samurai Inu <span>ROADMAP</span></h2>
                         <p className="timeline-desc">Our Goal is to create a Blockchain Game Ecosystem with Real-World utility and value. With this
 ambitious Project, we can reach the Moon! Our Team, Contributors and Investors have laid out Key
 Milestones that will put us on a Track to Success.</p>
@@ -65,7 +65,7 @@ Milestones that will put us on a Track to Success.</p>
                         <ul className="list">
                         <li>More partnership Cooperation’s</li>
                         {/* <li><i className="fas fa-check-circle" style={{ marginRight:'20px'}}></i>Charity Action</li> */}
-                        <li>Katana Inu App launch</li>
+                        <li>Samurai Inu App launch</li>
                         <li>Expand Marketing Strategy</li>
                         <li>Create more 3D Game NFT’s</li>
                         <li>Big game trailer</li>

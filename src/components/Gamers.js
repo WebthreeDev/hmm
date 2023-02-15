@@ -5,11 +5,11 @@ class Gamers extends React.Component {
     render() {
         return (
             <>
-            <section className='katanainu-values py-5'>
+            <section className='SamuraiInuERC-values py-5'>
                 <div className='container'>
                     <div className='row'>
                         <div className='col-md-12'>
-                            <h2 className="trailer-bottom-title"><span>KATANA INU</span> TOKEN WILL SHOOT TO VENUS</h2>
+                            <h2 className="trailer-bottom-title"><span>Samurai Inu</span> TOKEN WILL SHOOT TO VENUS</h2>
                         </div>
                     </div>
                 </div>
@@ -21,7 +21,7 @@ class Gamers extends React.Component {
                         <div className="section-title">
                         <h2 className="title">FOR THE <span>GAMERS</span></h2>
                         <p>Our Wallets are 2 ff locked for 2-8 Month and linear Vesting from 2-4 Years.</p>
-                        <p><a href='https://katanainu.com/katanainutokenomics.pdf' target="_blank" rel="noreferrer">Check our Tokenomics</a></p>
+                        <p><a href='https://SamuraiInuERC.com/SamuraiInuERCtokenomics.pdf' target="_blank" rel="noreferrer">Check our Tokenomics</a></p>
                         </div>
                     </div>
                     </div>

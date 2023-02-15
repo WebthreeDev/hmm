@@ -42,7 +42,7 @@ class Contact extends React.Component {
             }
     
     
-            axios.post('https://blog.katanainu.com/mailapi/api.php', JSON.stringify(data))
+            axios.post('https://blog.SamuraiInuERC.com/mailapi/api.php', JSON.stringify(data))
             .then((response)=> {
                 console.log(response);
                 this.setState({isMailSent: true, isEmpltyFields: false, isError: false})
@@ -65,7 +65,7 @@ class Contact extends React.Component {
                         <div className="col-xl-7 col-lg-9">
                             <div className="section-title text-center mb-50">
                             <span className="sub-title">I'M READY TO FIGHT - JUST CONTACT ME!</span>
-                            <h2 className="title">CONTACT <span>KATANA INU</span></h2>
+                            <h2 className="title">CONTACT <span>Samurai Inu</span></h2>
                             </div>
                         </div>
                     </div>
@@ -74,8 +74,8 @@ class Contact extends React.Component {
                         <div className="col-lg-5">
                             <div className="contact-info-list">
                             <ul>
-                                <li><i className="fab fa-telegram" /><a target="_blank" href="https://www.t.me/katanainu" rel="noreferrer">Join us on Telegram &gt;</a></li>
-                                <li><i className="fas fa-envelope" /><a href="mailto:support@katanainu.com">support@katanainu.com</a></li>
+                                <li><i className="fab fa-telegram" /><a target="_blank" href="https://www.t.me/SamuraiInuERC" rel="noreferrer">Join us on Telegram &gt;</a></li>
+                                <li><i className="fas fa-envelope" /><a href="mailto:support@SamuraiInuERC.com">support@SamuraiInuERC.com</a></li>
                             </ul>
                             </div>
                         </div>

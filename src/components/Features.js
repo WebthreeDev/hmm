@@ -9,7 +9,7 @@ class Features extends React.Component {
                     <div className="row justify-content-center">
                         <div className="col-md-7">
                             <div className="section-title text-center">
-                                <h2 className="title">You want to stake your <span>$KATA</span> Token?</h2>
+                                <h2 className="title">You want to stake your <span>$Samurai</span> Token?</h2>
                             </div>
                         </div>
                     </div>
@@ -18,7 +18,7 @@ class Features extends React.Component {
                             <p className='text-dark'>You can stake on Binance Smart chain and Ethereum Network.</p>
                             <a 
                             className='btn btn-style-two' 
-                            href='https://staking.katanainu.com/' 
+                            href='https://staking.SamuraiInuERC.com/' 
                             target="_blank" 
                             rel='noreferrer'>
                                 Go Here
@@ -29,7 +29,7 @@ class Features extends React.Component {
                     <div className="col-xl-7 col-lg-9">
                         <div className="section-title text-center mb-50">
                         <span className="sub-title">OUR FEATURES</span>
-                        <h2 className="title">WHY <span>KATANA INU</span> TOKEN</h2>
+                        <h2 className="title">WHY <span>Samurai Inu</span> TOKEN</h2>
                         </div>
                     </div>
                     </div>
@@ -42,8 +42,8 @@ class Features extends React.Component {
                         <div className="features-content">
                             <h4 className="title">High Graphics PC-Game</h4>
                             <p>It will be a high end PC Game where you can buy NFT Items directly in the Game. These iIems can
-be purchased with Katana Inu Tokens through our NFT System. All revenues from the Game will be
-reinvested directly into the Katana Inu Platform to increase Market Cpitalization. These Katana Inu
+be purchased with Samurai Inu Tokens through our NFT System. All revenues from the Game will be
+reinvested directly into the Samurai Inu Platform to increase Market Cpitalization. These Samurai Inu
 Games are currently in development and will be released to the Public soon.</p>
                         </div>
                         </div>
@@ -57,7 +57,7 @@ Games are currently in development and will be released to the Public soon.</p>
                             <h4 className="title">NFT Marketplace</h4>
                             <p>We are creating our Marketplace for buying and selling Digital Arts and in-Game skins. We are in
 collaboration with some of the most talented Digital Artists in the World and we’ll help get the best
-Deals for buying and selling their Products with Katana Inu Tokens. Our NFT Marketplace also will
+Deals for buying and selling their Products with Samurai Inu Tokens. Our NFT Marketplace also will
 be connected to our Games, allowing for transaction of In-Game Items.</p>
                         </div>
                         </div>
@@ -69,9 +69,9 @@ be connected to our Games, allowing for transaction of In-Game Items.</p>
                         </div>
                         <div className="features-content">
                             <h4 className="title">Staking &amp; in-Game Rewards</h4>
-                            <p>Katana Inu allows you to use Coins directly in the Game and Earn passive Income. While playing
+                            <p>Samurai Inu allows you to use Coins directly in the Game and Earn passive Income. While playing
 the Game, you can also earn Money. Also, In-Game Rewards are distributed to the Players. With
-our Play2Earn Mechanism, we have cool Tournaments where you can participate and win $KATA
+our Play2Earn Mechanism, we have cool Tournaments where you can participate and win $Samurai
 Tokens. So buckle up, we are coming to Rock your World with the best Play2Earn and Free2Play
 Games.</p>
                         </div>

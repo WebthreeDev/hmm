@@ -26,13 +26,13 @@ class Trailer extends React.Component {
                     <div className="col-xl-4 col-lg-4 col-md-6 col-sm-12">
                         <div className="trailer-wrap mb-4">
                             <img src="assets/img/images/trailer-01.png" alt="TRAILER" />
-                            <a href="https://www.youtube.com/watch?v=7nykO0FzsVQ" className="popup-video"><img src="assets/img/icon/video_play_icon.png" alt="TRAILER" /></a>
+                            <a href="https://www.youtube.com/watch?v=" className="popup-video"><img src="assets/img/icon/video_play_icon.png" alt="TRAILER" /></a>
                         </div>
                     </div>
                     <div className="col-xl-4 col-lg-4 col-md-6 col-sm-12">
                         <div className="trailer-wrap mb-4">
                             <img src="assets/img/images/trailer_image.jpg" alt="TRAILER" />
-                            <a href="https://www.youtube.com/watch?v=TKKWnzLZMKo" className="popup-video"><img src="assets/img/icon/video_play_icon.png" alt="TRAILER" /></a>
+                            <a href="https://www.youtube.com/watch?v=Samuraiinu" className="popup-video"><img src="assets/img/icon/video_play_icon.png" alt="TRAILER" /></a>
                         </div>
                     </div>
                     <div className="col-xl-4 col-lg-4 col-md-6 col-sm-12">

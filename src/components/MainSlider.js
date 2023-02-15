@@ -109,14 +109,14 @@ class MainSlider extends React.Component {
                         <div className="row">
                         <div className="col-xl-7 col-lg-8 col-md-11">
                             <div className="slider-content">
-                            <h6 className="sub-title" data-animation="fadeInUp" data-delay=".2s">KATANA INU</h6>
+                            <h6 className="sub-title" data-animation="fadeInUp" data-delay=".2s">Samurai Inu</h6>
                             <h2 className="title" data-animation="fadeInUp" data-delay=".4s">PC-Game with <span>NFT Ecosystem</span></h2>
-                            <p className="desc" data-animation="fadeInUp" data-delay=".6s">Katana Inu - We have developed a Play2Earn BattleRoyal NFT PC Game with its own integrated
+                            <p className="desc" data-animation="fadeInUp" data-delay=".6s">Samurai Inu - We have developed a Play2Earn BattleRoyal NFT PC Game with its own integrated
 NFT Marketplace. A Layer-2-Solution in the Ethereum Domain. All skins available in the Game
 will be NFTs.</p>
                             <div className="slider-btn-wrap" data-animation="fadeInUp" data-delay=".8s">
-                                {/* <a href="https://app.uniswap.org/#/swap?inputCurrency=0x2e85ae1C47602f7927bCabc2Ff99C40aA222aE15" target="_blank" rel="noreferrer" className="btn btn-style-two">Uniswap</a> */}
-                                <a className="btn btn-style-two" href="https://nft.katanainu.com">NFT Page</a>
+                                {/* <a href="https://app.uniswap.org/#/swap?inputCurrency=0x000" target="_blank" rel="noreferrer" className="btn btn-style-two">Uniswap</a> */}
+                                <a className="btn btn-style-two" href="https://nft.SamuraiInuERC.com">NFT Page</a>
                                 {/* <a href="https://pancakeswap.finance/swap?outputCurrency=0x6D6bA21E4C4b29CA7Bfa1c344Ba1E35B8DaE7205" target="_blank" rel="noreferrer" className="btn btn-style-two">Pancakeswap</a> */}
                                 <a className="btn btn-style-two" href="/#" onClick={() => this.handleShow() }>Buy Token</a>
                                 <a className="btn btn-style-two" href="/#" onClick={() => this.openModal() }>Discord/Telegram</a>
@@ -137,14 +137,14 @@ will be NFTs.</p>
                         <div className="row">
                         <div className="col-xl-7 col-lg-8 col-md-11">
                             <div className="slider-content">
-                            <h6 className="sub-title" data-animation="fadeInUp" data-delay=".2s">KATANA INU</h6>
+                            <h6 className="sub-title" data-animation="fadeInUp" data-delay=".2s">Samurai Inu</h6>
                             <h2 className="title" data-animation="fadeInUp" data-delay=".4s">PC-Game with <span>NFT Ecosystem</span></h2>
-                            <p className="desc" data-animation="fadeInUp" data-delay=".6s">Katana Inu - We have developed a Play2Earn BattleRoyal NFT PC Game with its own integrated
+                            <p className="desc" data-animation="fadeInUp" data-delay=".6s">Samurai Inu - We have developed a Play2Earn BattleRoyal NFT PC Game with its own integrated
 NFT Marketplace. A Layer-2-Solution in the Ethereum Domain. All skins available in the Game
 will be NFTs.</p>
                             <div className="slider-btn-wrap" data-animation="fadeInUp" data-delay=".8s">
-                                {/* <a href="https://app.uniswap.org/#/swap?inputCurrency=0x2e85ae1C47602f7927bCabc2Ff99C40aA222aE15" target="_blank" rel="noreferrer" className="btn btn-style-two">Uniswap</a> */}
-                                <a className="btn btn-style-two" href="https://nft.katanainu.com">NFT Page</a>
+                                {/* <a href="https://app.uniswap.org/#/swap?inputCurrency=0x000" target="_blank" rel="noreferrer" className="btn btn-style-two">Uniswap</a> */}
+                                <a className="btn btn-style-two" href="https://nft.SamuraiInuERC.com">NFT Page</a>
                                 {/* <a href="https://pancakeswap.finance/swap?outputCurrency=0x6D6bA21E4C4b29CA7Bfa1c344Ba1E35B8DaE7205" target="_blank" rel="noreferrer" className="btn btn-style-two">Pancakeswap</a> */}
                                 <a className="btn btn-style-two" href="/#" onClick={() => this.handleShow() }>Buy Token</a>
                                 <a className="btn btn-style-two" href="/#" onClick={() => this.openModal() }>Discord/Telegram</a>
@@ -165,15 +165,15 @@ will be NFTs.</p>
                         <div className="row">
                         <div className="col-xl-7 col-lg-8 col-md-11">
                             <div className="slider-content">
-                            <h6 className="sub-title" data-animation="fadeInUp" data-delay=".2s">KATANA INU</h6>
+                            <h6 className="sub-title" data-animation="fadeInUp" data-delay=".2s">Samurai Inu</h6>
                             <h2 className="title" data-animation="fadeInUp" data-delay=".4s">PC-Game with <span>NFT Ecosystem</span></h2>
-                            <p className="desc" data-animation="fadeInUp" data-delay=".6s">Katana Inu - We have developed a Play2Earn BattleRoyal NFT PC Game with its own integrated
+                            <p className="desc" data-animation="fadeInUp" data-delay=".6s">Samurai Inu - We have developed a Play2Earn BattleRoyal NFT PC Game with its own integrated
 NFT Marketplace. A Layer-2-Solution in the Ethereum Domain. All skins available in the Game
 will be NFTs.
                             </p>
                             <div className="slider-btn-wrap" data-animation="fadeInUp" data-delay=".8s">
-                                {/* <a href="https://app.uniswap.org/#/swap?inputCurrency=0x2e85ae1C47602f7927bCabc2Ff99C40aA222aE15" target="_blank" rel="noreferrer" className="btn btn-style-two">Uniswap</a> */}
-                                <a className="btn btn-style-two" href="https://nft.katanainu.com">NFT Page</a>
+                                {/* <a href="https://app.uniswap.org/#/swap?inputCurrency=0x000" target="_blank" rel="noreferrer" className="btn btn-style-two">Uniswap</a> */}
+                                <a className="btn btn-style-two" href="https://nft.SamuraiInuERC.com">NFT Page</a>
                                 {/* <a href="https://pancakeswap.finance/swap?outputCurrency=0x6D6bA21E4C4b29CA7Bfa1c344Ba1E35B8DaE7205" target="_blank" rel="noreferrer" className="btn btn-style-two">Pancakeswap</a> */}
                                 <a className="btn btn-style-two" href="/#" onClick={() => this.handleShow() }>Buy Token</a>
                                 <a className="btn btn-style-two" href="/#" onClick={() => this.openModal() }>Discord/Telegram</a>
@@ -194,15 +194,15 @@ will be NFTs.
                         <div className="row">
                         <div className="col-xl-7 col-lg-8 col-md-11">
                             <div className="slider-content">
-                            <h6 className="sub-title" data-animation="fadeInUp" data-delay=".2s">KATANA INU</h6>
+                            <h6 className="sub-title" data-animation="fadeInUp" data-delay=".2s">Samurai Inu</h6>
                             <h2 className="title" data-animation="fadeInUp" data-delay=".4s">PC-Game with <span>NFT Ecosystem</span></h2>
-                            <p className="desc" data-animation="fadeInUp" data-delay=".6s">Katana Inu - We have developed a Play2Earn BattleRoyal NFT PC Game with its own integrated
+                            <p className="desc" data-animation="fadeInUp" data-delay=".6s">Samurai Inu - We have developed a Play2Earn BattleRoyal NFT PC Game with its own integrated
 NFT Marketplace. A Layer-2-Solution in the Ethereum Domain. All skins available in the Game
 will be NFTs.
                             </p>
                             <div className="slider-btn-wrap" data-animation="fadeInUp" data-delay=".8s">
-                                {/* <a href="https://app.uniswap.org/#/swap?inputCurrency=0x2e85ae1C47602f7927bCabc2Ff99C40aA222aE15" target="_blank" rel="noreferrer" className="btn btn-style-two">Uniswap</a> */}
-                                <a className="btn btn-style-two" href="https://nft.katanainu.com">NFT Page</a>
+                                {/* <a href="https://app.uniswap.org/#/swap?inputCurrency=0x000" target="_blank" rel="noreferrer" className="btn btn-style-two">Uniswap</a> */}
+                                <a className="btn btn-style-two" href="https://nft.SamuraiInuERC.com">NFT Page</a>
                                 <a className="btn btn-style-two" href="/#" onClick={() => this.handleShow() }>Buy Token</a>
                                 <a className="btn btn-style-two" href="/#" onClick={() => this.openModal() }>Discord/Telegram</a>
                             </div>
@@ -222,15 +222,15 @@ will be NFTs.
                         <div className="row">
                         <div className="col-xl-7 col-lg-7 col-md-11">
                             <div className="slider-content">
-                            <h6 className="sub-title" data-animation="fadeInUp" data-delay=".2s">KATANA INU</h6>
+                            <h6 className="sub-title" data-animation="fadeInUp" data-delay=".2s">Samurai Inu</h6>
                             <h2 className="title" data-animation="fadeInUp" data-delay=".4s">PC-Game with <span>NFT Ecosystem</span></h2>
-                            <p className="desc" data-animation="fadeInUp" data-delay=".6s">Katana Inu - We have developed a Play2Earn BattleRoyal NFT PC Game with its own integrated
+                            <p className="desc" data-animation="fadeInUp" data-delay=".6s">Samurai Inu - We have developed a Play2Earn BattleRoyal NFT PC Game with its own integrated
 NFT Marketplace. A Layer-2-Solution in the Ethereum Domain. All skins available in the Game
 will be NFTs.
                             </p>
                             <div className="slider-btn-wrap" data-animation="fadeInUp" data-delay=".8s">
-                                {/* <a href="https://app.uniswap.org/#/swap?inputCurrency=0x2e85ae1C47602f7927bCabc2Ff99C40aA222aE15" target="_blank" rel="noreferrer" className="btn btn-style-two">Uniswap</a> */}
-                                <a className="btn btn-style-two" href="https://nft.katanainu.com">NFT Page</a>
+                                {/* <a href="https://app.uniswap.org/#/swap?inputCurrency=0x000" target="_blank" rel="noreferrer" className="btn btn-style-two">Uniswap</a> */}
+                                <a className="btn btn-style-two" href="https://nft.SamuraiInuERC.com">NFT Page</a>
                                 <a className="btn btn-style-two" href="/#" onClick={() => this.handleShow() }>Buy Token</a>
                                 <a className="btn btn-style-two" href="/#" onClick={() => this.openModal() }>Discord/Telegram</a>
                             </div>
@@ -246,7 +246,7 @@ will be NFTs.
                 aria-labelledby="contained-modal-title-vcenter"
                 centered>
                     <Modal.Body className='p-5'>
-                            <p><a className='btn d-block btn-primary' href='https://app.uniswap.org/#/swap?inputCurrency=ETH&outputCurrency=0x2e85ae1C47602f7927bCabc2Ff99C40aA222aE15&chain=mainnet' rel='noreferrer' target='_blank'>Uniswap</a></p>
+                            <p><a className='btn d-block btn-primary' href='https://app.uniswap.org/#/swap?inputCurrency=ETH&outputCurrency=0x000&chain=mainnet' rel='noreferrer' target='_blank'>Uniswap</a></p>
                             <p><a className='btn d-block' href='https://pancakeswap.finance/swap?outputCurrency=0x6D6bA21E4C4b29CA7Bfa1c344Ba1E35B8DaE7205' rel='noreferrer' target='_blank'>Pancake Swap</a></p>
                             <p><a className='btn d-block btn-success' href='https://www.bitmart.com/trade/en?symbol=KATA_USDT' rel='noreferrer' target='_blank'>Bitmart</a></p>
                             <p><a className='btn d-block btn-danger' href='https://www.hotbit.io/exchange?symbol=KATA_USDT' rel='noreferrer' target='_blank'>Hotbit</a></p>
@@ -267,7 +267,7 @@ will be NFTs.
                                 className='btn d-block' 
                                 target="_blank" 
                                 rel="noreferrer" 
-                                href='https://t.me/katanainu'  
+                                href='https://t.me/SamuraiInuERC'  
                                 style={{background : '#0077b5'}}>
                                     <i className="fab fa-telegram" style={{marginRight:'15px'}}></i>
                                     <span>Telegram</span>
@@ -278,7 +278,7 @@ will be NFTs.
                                 className='btn d-block' 
                                 target="_blank" 
                                 rel="noreferrer" 
-                                href='https://www.discord.gg/katanainu'  
+                                href='https://www.discord.gg/SamuraiInuERC'  
                                 style={{background : '#FF4301'}}>
                                     <i className="fab fa-discord" style={{marginRight:'15px'}}></i>
                                     <span>Discord</span>

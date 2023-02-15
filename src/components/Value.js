@@ -8,12 +8,12 @@ class Value extends React.Component {
                     <div className="row align-items-center">
                     <div className="col-lg-6">
                         <div className="mission-img text-center">
-                        <img src="assets/img/images/value_img.png" alt="KATANA INU"/>
+                        <img src="assets/img/images/value_img.png" alt="Samurai Inu"/>
                         </div>
                     </div>
                     <div className="col-lg-6">
                         <div className="section-title mb-45">
-                        <span className="sub-title">Our Ecosystem with Katana Inu</span>
+                        <span className="sub-title">Our Ecosystem with Samurai Inu</span>
                                 <h2 className="title">Complete NFT<span> Ecosystem Integration</span></h2>
                         </div>
                         <div className="mission-content">
